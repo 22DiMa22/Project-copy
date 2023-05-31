@@ -132,6 +132,7 @@ color: #2196F3;
 
 .address-place{
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -223,11 +224,18 @@ color: #757575;
 
 }
 
-.footer-info{
+.info-one{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+}
+
+.info-two{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
