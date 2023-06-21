@@ -148,9 +148,11 @@ color: #2196F3;
     background: #2F303A;
 }
 
-.decition-button-first{
-background-color: #2196F3;
-color: #FFFFFF;
+.button-first{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
 }
 
 .nav-logo{
