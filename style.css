@@ -99,6 +99,7 @@ color: #2196F3;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    outline: solid red;
 }
 
 .team-title{
@@ -151,6 +152,7 @@ color: #2196F3;
 .button-first{
     background-color: #2196F3;
     color: #FFFFFF;
+    font-size: 16px;
     border-radius: 5px;
     border: 0;
 }
@@ -249,6 +251,7 @@ color: #757575;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    padding-bottom: 20px;
 }
 
 .two-logo{
@@ -258,6 +261,7 @@ color: #757575;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    padding-bottom: 20px;
 }
 
 .info-three{
@@ -276,3 +280,66 @@ color: #757575;
     color: rgba(255, 255, 255, 0.6);
 }
 
+.nav{
+    display: flex;
+    gap: 50px;
+    padding-right: 344px;
+}
+
+.text-list{
+    display: flex;
+    gap: 30px;
+}
+
+.work-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.work-foto{
+    width: 370px;
+    height: 294px;
+}
+
+.team-list{
+    display: flex;
+    gap: 30px;
+}
+
+.address-list{
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.first-man{
+    width: 270px;
+    height: 260px;
+}
+
+.second-man{
+    width: 270px;
+    height: 260px;
+}
+
+.third-man{
+    width: 270px;
+    height: 260px; 
+}
+
+.fourth-man{
+    width: 270px;
+    height: 260px;
+}
+
+.address{
+    padding-left: 344px;
+    display: flex;
+    gap: 50px;
+}
+
+.header-nav{
+    display: flex;
+}

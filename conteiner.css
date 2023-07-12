@@ -1,25 +1,69 @@
-.decition-title{
+.conteiner{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.decision{
     padding-top: 200px;
-    padding-bottom: 230px;
+    padding-bottom: 200px;
+    background-color: #2F303A;;
+}
+
+.nav-link:nth-child(1){
+    padding-bottom: 32px;
+    padding-top: 32px;
+    padding-right: 344px;
+    padding-left: 238px;
+}
+
+.nav-link:nth-child(2){
+    padding-left: 288px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 765px;
+}
+
+.nav-link:nth-child(3){
+    padding-right: 344px;
+    padding-left: 455px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .button-first{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
     width: 216px;
     height: 50px;
+    border-radius: 4px;
 }
 
-.logo{
-    padding-left: 215px;
-    padding-bottom: 25px;
+.address-link:nth-child(1){
+padding-left: 863px;
+padding-right: 172px;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
-.nav-link{
-    padding-left: 453px;
-    padding-bottom: 32px;
+.address-link:nth-child(2){
+padding-left: 1048px;
+padding-right: 0px;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+.decision-title{
+    padding-left: 237px;
+    padding-right: 237px;
+    padding-bottom: 240px;
+    padding-top: 240px;
 }
 
 .footer-logo{
@@ -45,7 +89,9 @@ padding-bottom: 13px;
 }
 
 .work-title{
-    padding-left: 201qpx;
+    padding-left: 200px;
+    padding-right: 215px;
+     outline:solid red;
 }
 
 .work-foto{
@@ -59,9 +105,4 @@ padding-bottom: 13px;
 .team-info{
     padding-left: 143px;
     padding-bottom: 10px;
-}
-
-.address-link{
-    padding-left: 1078px;
-    padding-bottom: 32px;
 }
