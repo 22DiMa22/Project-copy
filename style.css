@@ -44,11 +44,23 @@ color: #2196F3;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    
 }
 
 .address-link:hover{
     color: #2196F3;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.decision{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #2F303A;;
 }
 
 .decition-title{
@@ -60,6 +72,36 @@ color: #2196F3;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-first{
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+}
+
+.text-item{
+    max-width: 270px;
+}
+
+.text-list{
+padding-left: 215px;
+padding-right: 215px;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .text-title{
@@ -91,6 +133,11 @@ color: #2196F3;
     color: #212121;
 }
 
+.team{
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
 .team-headline{
     font-family: 'Roboto';
     font-weight: 700;
@@ -99,7 +146,6 @@ color: #2196F3;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    outline: solid red;
 }
 
 .team-title{
@@ -252,6 +298,7 @@ color: #757575;
     line-height: 1.19;
     letter-spacing: 0.03em;
     padding-bottom: 20px;
+
 }
 
 .two-logo{
@@ -280,10 +327,11 @@ color: #757575;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.nav{
+.nav-one{
     display: flex;
     gap: 50px;
-    padding-right: 344px;
+    margin-left: 93px;
+
 }
 
 .text-list{
@@ -311,7 +359,6 @@ color: #757575;
     display: flex;
     gap: 9px;
     flex-direction: column;
-    justify-content: start;
 }
 
 .first-man{
@@ -335,11 +382,44 @@ color: #757575;
 }
 
 .address{
-    padding-left: 344px;
+    margin-left: 344px;
     display: flex;
     gap: 50px;
 }
 
-.header-nav{
+.nav{
     display: flex;
+    margin-left: 93px;
+    gap: 50px;
+}
+
+.main-list{
+    padding-left: 297px;
+    display: flex;
+    gap: 8px;
+}
+
+.nav-address{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+}
+
+.nav-address{
+    margin-left: 344px;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-address:hover{
+    color: #2196F3;
+}
+
+.footer-logo{
+    padding-left: 215px;
+    padding-right: 215px;
 }

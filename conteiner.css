@@ -1,108 +1,22 @@
-.conteiner{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    outline: solid red;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-header{
+.header{
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-.decision{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: #2F303A;;
-}
-
-.nav-link:nth-child(1){
-    padding-bottom: 32px;
-    padding-top: 32px;
-    padding-right: 344px;
-    padding-left: 238px;
-}
-
-.nav-link:nth-child(2){
-    padding-left: 288px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-right: 765px;
-}
-
-.nav-link:nth-child(3){
-    padding-right: 344px;
-    padding-left: 455px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
-.button-first{
-    width: 216px;
-    height: 50px;
-    border-radius: 4px;
-}
-
-.address-link:nth-child(1){
-padding-left: 863px;
-padding-right: 172px;
-padding-top: 32px;
-padding-bottom: 32px;
-}
-
-.address-link:nth-child(2){
-padding-left: 1048px;
-padding-right: 0px;
-padding-top: 32px;
-padding-bottom: 32px;
-}
-
-.decision-title{
-    padding-left: 237px;
-    padding-right: 237px;
-    padding-bottom: 240px;
-    padding-top: 240px;
-}
-
-.footer-logo{
-    padding-left: 215px;
-}
-
-.address-place{
-    padding-left: 215px;
-}
-
 .team-headline{
-    padding-top: 94px;
-    padding-bottom: 50px;
-}
-
-.text-title{
-padding-left: 215px;
-padding-bottom: 13px;
-}
-
-.text-info{
-    padding-left: 215px;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 
 .work-title{
-    padding-left: 200px;
-    padding-right: 215px;
-     outline:solid red;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .work-foto{
-    padding-top: 58px;
-}
-
-.team-title{
-    padding-left: 143px;
+    margin-top: 50px;
 }
 
 .team-info{
-    padding-left: 143px;
-    padding-bottom: 10px;
+    padding-bottom: 124px;
 }
