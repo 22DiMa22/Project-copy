@@ -53,8 +53,6 @@ color: #2196F3;
 .header-nav{
     display: flex;
     align-items: center;
-    padding-left: 215px;
-    padding-right: 215px;
 }
 
 .decision{
@@ -91,17 +89,20 @@ color: #2196F3;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.text-list{
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .text-item{
     max-width: 270px;
-}
-
-.text-list{
-padding-left: 215px;
-padding-right: 215px;
-padding-top: 94px;
-padding-bottom: 94px;
 }
 
 .text-title{
@@ -121,6 +122,14 @@ padding-bottom: 94px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.text-list{
+    display: flex;
+    gap: 30px;
 }
 
 .work-title{
@@ -133,9 +142,15 @@ padding-bottom: 94px;
     color: #212121;
 }
 
-.team{
-    padding-left: 215px;
-    padding-right: 215px;
+.work-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.work-foto{
+    width: 370px;
+    height: 294px;
 }
 
 .team-headline{
@@ -146,6 +161,35 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.team-list{
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-man{
+    width: 270px;
+    height: 260px;
+}
+
+.second-man{
+    width: 270px;
+    height: 260px;
+}
+
+.third-man{
+    width: 270px;
+    height: 260px; 
+}
+
+.fourth-man{
+    width: 270px;
+    height: 260px;
 }
 
 .team-title{
@@ -195,14 +239,6 @@ padding-bottom: 94px;
     background: #2F303A;
 }
 
-.button-first{
-    background-color: #2196F3;
-    color: #FFFFFF;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 0;
-}
-
 .nav-logo{
     font-family: 'Raleway';
     font-weight: 700;
@@ -238,57 +274,7 @@ color: #757575;
 color: #2196F3;
 }
 
-.decition-button{
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-background: #F5F4FA;
-border-radius: 4px;
-}
 
-.decition-button:hover{
-color: #FFFFFF;
-background-color: #2196F3;
-}
-
-.text-title{
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
-}
-
-.text{
-font-family: 'Roboto';
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
-
-}
-
-.info-one{
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-}
-
-.info-two{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
 
 .footer-logo{
     color: #2196F3;
@@ -331,72 +317,12 @@ color: #757575;
     display: flex;
     gap: 50px;
     margin-left: 93px;
-
-}
-
-.text-list{
-    display: flex;
-    gap: 30px;
-}
-
-.work-list{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-}
-
-.work-foto{
-    width: 370px;
-    height: 294px;
-}
-
-.team-list{
-    display: flex;
-    gap: 30px;
-}
-
-.address-list{
-    display: flex;
-    gap: 9px;
-    flex-direction: column;
-}
-
-.first-man{
-    width: 270px;
-    height: 260px;
-}
-
-.second-man{
-    width: 270px;
-    height: 260px;
-}
-
-.third-man{
-    width: 270px;
-    height: 260px; 
-}
-
-.fourth-man{
-    width: 270px;
-    height: 260px;
 }
 
 .address{
     margin-left: 344px;
     display: flex;
     gap: 50px;
-}
-
-.nav{
-    display: flex;
-    margin-left: 93px;
-    gap: 50px;
-}
-
-.main-list{
-    padding-left: 297px;
-    display: flex;
-    gap: 8px;
 }
 
 .nav-address{
@@ -406,10 +332,6 @@ color: #757575;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
-
-}
-
-.nav-address{
     margin-left: 344px;
     display: flex;
     gap: 50px;
@@ -417,9 +339,4 @@ color: #757575;
 
 .nav-address:hover{
     color: #2196F3;
-}
-
-.footer-logo{
-    padding-left: 215px;
-    padding-right: 215px;
 }
