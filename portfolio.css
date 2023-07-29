@@ -73,9 +73,8 @@ ul {
     display: flex;
     justify-content: center;
     gap: 8px;
+    margin-bottom: 50px;
 }
-
-
 
 .maine{
     padding-top: 44px;
@@ -83,8 +82,6 @@ ul {
 }
 
 .main-btn{
-    margin-top: 44px;
-    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -114,6 +111,8 @@ ul {
 .text-box{
     padding-left: 24px;
     padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .text-item{
@@ -140,7 +139,6 @@ ul {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-bottom: 20px;
 }
 
 .text-title {
@@ -150,7 +148,6 @@ ul {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
-    margin-top: 20px;
 }
 
 .footer-logo {
@@ -160,8 +157,8 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    padding-bottom: 20px;
-
+    margin-bottom: 20px;
+    padding-top: 60px;
 }
 
 .two-logo {
@@ -171,7 +168,8 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 60px;
 }
 
 .footer-title {
@@ -201,4 +199,5 @@ ul {
     display: flex;
     flex-direction: column;
     column-gap: 9px;
+    padding-bottom: 60px;
 }
