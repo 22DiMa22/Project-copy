@@ -3,21 +3,11 @@
     padding-bottom: 24px;
 }
 
-.work-title{
-    padding-left: auto;
-    padding-right: auto;
-}
-
-.work-list{
-    margin-top: 50px;
-}
-
-.team-info{
-    padding-bottom: 124px;
-}
-
 .conteiner{
-    padding-left: 215px;
-    padding-right: 215px;
-    outline: soli red;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid red;
 }
