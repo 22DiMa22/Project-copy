@@ -3,11 +3,15 @@
     padding-bottom: 24px;
 }
 
+button{
+    cursor: pointer;
+}
+
 .conteiner{
     padding-left: 15px;
     padding-right: 15px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    outline: solid red;
+    outline: soli red;
 }

@@ -162,7 +162,7 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top: 94px;
+    padding-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -205,6 +205,8 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .team-info{
@@ -215,6 +217,8 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-top: 10px;
+    padding-bottom: 124px;
 }
 
 .footer-title{
@@ -240,66 +244,56 @@ padding-bottom: 94px;
     background: #2F303A;
 }
 
-.footer{
-    background: #2F303A;
-}
-
-.nav-logo{
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-}
-
-.nav-link{
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #212121;
-    }
-
-.nav-link:hover{
-color: #2196F3;
-}
-
-.address-link{
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;    
-}
-        
-.address-link:hover{
-color: #2196F3;
-}
-
-
-
-.footer-logo{
+.footer-logo {
     color: #2196F3;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    padding-bottom: 20px;
-
+    margin-bottom: 20px;
+    padding-top: 60px;
 }
 
-.two-logo{
+.two-logo {
     color: #FFFFFF;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+
+.footer-title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+.address-place {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.address-list{
+    display: flex;
+    flex-direction: column;
+    column-gap: 9px;
+    padding-bottom: 60px;
 }
 
 .info-three{
@@ -344,4 +338,11 @@ color: #2196F3;
 
 .nav-address:hover{
     color: #2196F3;
+}
+
+.address-list{
+    display: flex;
+    flex-direction: column;
+    column-gap: 9px;
+    padding-bottom: 60px;
 }

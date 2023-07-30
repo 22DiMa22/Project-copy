@@ -139,6 +139,7 @@ ul {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-top: 4px;
 }
 
 .text-title {
@@ -197,7 +198,7 @@ ul {
 
 .address-list{
     display: flex;
-    flex-direction: column;
     column-gap: 9px;
+    flex-direction: column;
     padding-bottom: 60px;
 }
