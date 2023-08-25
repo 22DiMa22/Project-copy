@@ -55,7 +55,6 @@ ul {
     align-items: center;
 }
 
-
 .nav-one {
     display: flex;
     gap: 50px;
@@ -73,17 +72,11 @@ ul {
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-bottom: 50px;
 }
 
-.maine{
-    padding-top: 44px;
-    padding-bottom: 94px;
-}
-
-.main-btn{
-    margin-left: auto;
-    margin-right: auto;
+.main-section{
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .decition-button {
@@ -106,6 +99,10 @@ ul {
     color: #FFFFFF;
     background-color: #2196F3;
     border: none;
+}
+
+.text-info {
+    padding-bottom: 94px;
 }
 
 .text-box{
@@ -159,7 +156,6 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     margin-bottom: 20px;
-    padding-top: 60px;
 }
 
 .two-logo {
@@ -170,7 +166,6 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     margin-bottom: 20px;
-    padding-top: 60px;
 }
 
 .footer-title {
@@ -182,11 +177,29 @@ ul {
     color: #2196F3;
 }
 
-.footer {
-    background: #2F303A;
+.address-place-one {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 9px;
 }
 
-.address-place {
+.address-place-two {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.address-place-three {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -196,9 +209,8 @@ ul {
     color: #FFFFFF;
 }
 
-.address-list{
-    display: flex;
-    column-gap: 9px;
-    flex-direction: column;
+.footer {
+    background: #2F303A;
+    padding-top: 60px;
     padding-bottom: 60px;
 }

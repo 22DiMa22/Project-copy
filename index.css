@@ -306,11 +306,31 @@ ul {
     color: #2196F3;
 }
 
-.footer {
-    background: #2F303A;
+
+
+.address-place-one {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 9px;
 }
 
-.address-place {
+.address-place-two {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.address-place-three {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -354,29 +374,8 @@ ul {
     gap: 50px;
 }
 
-.nav-address {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #212121;
-    margin-left: 344px;
-    display: flex;
-    gap: 50px;
-}
-
-.nav-address:hover {
-    color: #2196F3;
-}
-
-.address-list {
-    display: flex;
-    flex-direction: column;
-    column-gap: 9px;
-}
-
-.footer{
+.footer {
+    background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
 }
