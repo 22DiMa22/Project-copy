@@ -177,36 +177,25 @@ ul {
     color: #2196F3;
 }
 
-.address-place-one {
+.address-place {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #FFF;
     margin-bottom: 9px;
 }
 
-.address-place-two {
+.address-info {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-    margin-bottom: 9px;
-}
-
-.address-place-three {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.60);
 }
 
 .footer {

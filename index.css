@@ -308,7 +308,7 @@ ul {
 
 
 
-.address-place-one {
+.address-place {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -319,25 +319,15 @@ ul {
     margin-bottom: 9px;
 }
 
-.address-place-two {
+.address-info {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.60);
     margin-bottom: 9px;
-}
-
-.address-place-three {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
 }
 
 .address-list {
