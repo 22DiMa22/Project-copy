@@ -116,12 +116,14 @@ ul {
     border: 1px solid #EEE;
     background: #FFF;
     max-width: 370px;
+    flex-basis: calc((100% - (30px * 2)) / 3);
 }
 
 .text-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
 }
 
 .text-foto {

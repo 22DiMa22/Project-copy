@@ -165,6 +165,7 @@ ul {
 .team {
     padding-bottom: 94px;
     background: #F5F4FA;
+    padding-top: 94px;
 }
 
 .team-first {
@@ -199,7 +200,7 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top: 94px;
+
     margin-bottom: 50px;
 }
 
