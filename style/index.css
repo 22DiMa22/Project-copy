@@ -105,6 +105,20 @@ ul {
     max-width: 270px;
 }
 
+.dekoration-box::before {
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
+
+.text-dekorate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
 .text-title {
     font-family: 'Roboto';
     font-weight: 700;
@@ -132,11 +146,11 @@ ul {
     gap: 30px;
 }
 
-.text-index{
-    background: #F5F4FA;
+.text-index {
+    background: #FFF;
 }
 
-.work{
+.work {
     padding-bottom: 94px;
 }
 
