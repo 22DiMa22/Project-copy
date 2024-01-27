@@ -105,18 +105,40 @@ ul {
     max-width: 270px;
 }
 
-.dekoration-box {
+.text-item:nth-child(1)::before {
+    content: '';
+    display: block;
     width: 270px;
     height: 120px;
-    border-radius: 4px;
-    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    background-image: url(../img/dekorate-bild-1.png);
 }
 
-.text-dekorate::before {
+.text-item:nth-child(2)::before {
+    content: '';
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 270px;
+    height: 120px;
     margin-bottom: 30px;
+    background-image: url(../img/dekorate-bild-2.png);
+}
+
+.text-item:nth-child(3)::before {
+    content: '';
+    display: block;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-image: url(../img/dekorate-bild-3.png);
+}
+
+.text-item:nth-child(4)::before {
+    content: '';
+    display: block;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-image: url(../img/dekorate-bild-4.png);
 }
 
 .text-title {

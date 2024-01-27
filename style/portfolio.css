@@ -74,7 +74,7 @@ ul {
     gap: 8px;
 }
 
-.main-section{
+.main-section {
     padding-top: 94px;
     padding-bottom: 50px;
 }
@@ -99,24 +99,31 @@ ul {
     color: #FFFFFF;
     background-color: #2196F3;
     border: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .text-info {
     padding-bottom: 94px;
 }
 
-.text-box{
+.text-box {
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.text-item{
+.text-item {
     border: 1px solid #EEE;
     background: #FFF;
     max-width: 370px;
     flex-basis: calc((100% - (30px * 2)) / 3);
+}
+
+.text-item:hover {
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .text-list {
