@@ -6,6 +6,11 @@ ul {
     list-style: none;
 }
 
+.header {
+    border-bottom: solid #ECECEC;
+
+}
+
 .logo {
     font-family: 'Raleway';
     font-weight: 700;

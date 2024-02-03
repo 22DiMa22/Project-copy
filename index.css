@@ -58,7 +58,8 @@ ul {
 .decision {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: #2F303A;
+    background-color: #2f303a;
+    background-image: url(./img/background-index.webp);
 }
 
 .decition-title {
@@ -200,8 +201,8 @@ ul {
 
 .team {
     padding-bottom: 94px;
-    background: #F5F4FA;
     padding-top: 94px;
+    background-color: #F5F4FA;
 }
 
 .team-first {
