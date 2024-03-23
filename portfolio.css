@@ -55,6 +55,17 @@ ul {
     color: #2196F3;
 }
 
+.address-box {
+    display: flex;
+}
+
+.address-icon {
+    width: 16px;
+    height: 12px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
 .header-nav {
     display: flex;
     align-items: center;
@@ -216,4 +227,39 @@ ul {
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer-box {
+    display: flex;
+}
+
+.box-1 {
+    margin-right: 70px;
+}
+
+.list-icon {
+    display: flex;
+    margin-top: 20px;
+}
+
+.box-2-icon {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 12px 12px 12px 12px;
+    margin-right: 10px;
+    fill: #FFF;
+}
+
+.box-2-icon:hover {
+    background-color: #2196F3;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }

@@ -55,11 +55,22 @@ ul {
     align-items: center;
 }
 
+.address-box {
+    display: flex;
+}
+
+.address-icon {
+    width: 16px;
+    height: 12px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
 .decision {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: #2f303a;
-    background-image: url(./img/background-index.webp);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./img/background-index.webp);
 }
 
 .decition-title {
@@ -69,11 +80,11 @@ ul {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
     color: #FFFFFF;
     max-width: 696px;
     margin-left: auto;
     margin-right: auto;
+    text-transform: uppercase;
 }
 
 .button-first {
@@ -106,40 +117,14 @@ ul {
     max-width: 270px;
 }
 
-.text-item:nth-child(1)::before {
-    content: '';
-    display: block;
+.text-icon {
     width: 270px;
     height: 120px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #F5F4FA;
     margin-bottom: 30px;
-    background-image: url(../img/dekorate-bild-1.png);
-}
-
-.text-item:nth-child(2)::before {
-    content: '';
-    display: block;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    background-image: url(../img/dekorate-bild-2.png);
-}
-
-.text-item:nth-child(3)::before {
-    content: '';
-    display: block;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    background-image: url(../img/dekorate-bild-3.png);
-}
-
-.text-item:nth-child(4)::before {
-    content: '';
-    display: block;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    background-image: url(../img/dekorate-bild-4.png);
+    padding: 25px 100px 25px 100px;
 }
 
 .text-title {
@@ -311,10 +296,6 @@ ul {
     color: #FFFFFF;
 }
 
-.decition-title {
-    background: #2F303A;
-}
-
 .footer-logo {
     color: #2196F3;
     font-family: 'Raleway';
@@ -406,4 +387,39 @@ ul {
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.footer-box {
+    display: flex;
+}
+
+.box-1 {
+    margin-right: 70px;
+}
+
+.list-icon {
+    display: flex;
+    margin-top: 20px;
+}
+
+.box-2-icon {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 12px 12px 12px 12px;
+    margin-right: 10px;
+    fill: #FFF;
+}
+
+.box-2-icon:hover {
+    background-color: #2196F3;
 }
