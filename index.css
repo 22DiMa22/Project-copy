@@ -66,6 +66,10 @@ ul {
     margin-right: 10px;
 }
 
+.address-icon:hover {
+    fill: #2196F3;
+}
+
 .decision {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -274,7 +278,64 @@ ul {
     letter-spacing: 0.03em;
     color: #757575;
     margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.team-icons-list {
+    display: flex;
+    margin-left: 32px;
+    margin-right: 32px;
     padding-bottom: 30px;
+    gap: 10px;
+}
+
+.team-icon {
+    width: 44px;
+    height: 44px;
+    padding: 12px 12px 12px 12px;
+    fill: #AFB1B8;
+}
+
+.team-icon:hover {
+    background-color: #2196F3;
+    fill: #FFFFFF;
+}
+
+.customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.customers-title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 30px;
+}
+
+.customer-icon {
+    width: 170px;
+    height: 92px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    fill: #AFB1B8;
+}
+
+.customer-icon:hover {
+    fill: #2196F3;
+    border-radius: 4px;
+    border: 1px solid #2196F3;
 }
 
 .footer-title {
@@ -378,9 +439,9 @@ ul {
 }
 
 .address {
-    margin-left: 344px;
+    margin-left: 310px;
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 
 .footer {

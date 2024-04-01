@@ -66,6 +66,10 @@ ul {
     margin-right: 10px;
 }
 
+.address-icon:hover {
+    fill: #2196F3;
+}
+
 .header-nav {
     display: flex;
     align-items: center;
@@ -78,9 +82,13 @@ ul {
 }
 
 .address {
-    margin-left: 344px;
+    margin-left: 310px;
     display: flex;
-    gap: 50px;
+    gap: 30px;
+}
+
+.address-box {
+    display: flex;
 }
 
 .main-liste {
