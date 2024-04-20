@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./conteiner.css">
+  <link rel="stylesheet" href="./modal.js">
 </head>
 
 <body>
@@ -33,8 +34,8 @@
             <div class="address-box">
               <a class="nav-focus" href="#">
                 <svg class="address-icon">
-                <use href="./scv/icon.svg#icon-email"></use>
-              </svg>
+                  <use href="./scv/icon.svg#icon-email"></use>
+                </svg>
               </a>
               <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </div>
@@ -43,8 +44,8 @@
             <div class="address-box">
               <a class="nav-focus" href="#">
                 <svg class="address-icon">
-                <use href="./scv/icon.svg#icon-smartphone"></use>
-              </svg>
+                  <use href="./scv/icon.svg#icon-smartphone"></use>
+                </svg>
               </a>
               <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </div>
@@ -58,7 +59,50 @@
       <div class="conteiner">
         <h1 class="decition-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
         </h1>
-        <button type="button" class="button-first">Замовити послугу</button>
+        <button type="button" class="button-first" data-modal-open>Замовити послугу</button>
+        <div class="backdrop">
+          <div class="modal" data-modal>
+            <script src="./js/modal.js"></script>
+            <button class="button-second" data-modal-close>
+              <svg class="modal-close">
+                <use href="./scv/icon.svg#icon-close"></use>
+              </svg>
+            </button>
+            <h3 class="modal-title">Залиште свої дані, ми вам передзвонимоㅤ</h3>
+            <ul class="modal-list">
+              <li class="modal-item">
+                <p class="modal-text">Ім'я</p>
+                <input class="write-modal" type="Введіть текст">
+                <svg class="modal-svg">
+                  <use href="./scv/icon.svg#icon-modal-person"></use>
+                </svg>
+              </li>
+              <li class="modal-item">
+                <p class="modal-text">Телефон</p>
+                <input class="write-modal" type="text">
+                <svg class="modal-svg">
+                  <use href="./scv/icon.svg#icon-modal-phone"></use>
+                </svg>
+              </li>
+              <li class="modal-item">
+                <p class="modal-text">Пошта</p>
+                <input class="write-modal" type="text">
+                <svg class="modal-svg">
+                  <use href="./scv/icon.svg#icon-modal-email"></use>
+                </svg>
+              </li>
+              <li class="modal-item">
+                <p class="modal-text">Коментар</p>
+                <input placeholder="Введіть текст" class="write-modal-big" type="text">
+              </li>
+            </ul>
+            <div class="modal-box">
+              <input class="checkbox"  type="checkbox">
+              <p class="conditions-text">Погоджуюся з розсилкою та приймаю <span class="conditions-text-two">Умови договору</span></p>
+            </div>
+            <button class="send-btn">Відправити</button>
+          </div>
+        </div>
       </div>
     </section>
     <section class="text-index">
@@ -98,7 +142,7 @@
               <use href="./scv/icon.svg#icon-astronaut"></use>
             </svg>
             <h3 class="text-title">Сучасні технології</h3>
-            <lol class="text-info">
+            <p class="text-info">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -112,15 +156,15 @@
         <ul class="work-list">
           <li class="work-item">
             <img class="work-foto" src="./img/make-bild-1.webp" width="200" alt="комп." />
-            <button class="work-btn">ДЕСКТОПНІ ДОДАТКИ</button>
+            <button class="work-btn" type="button">ДЕСКТОПНІ ДОДАТКИ</button>
           </li>
           <li class="work-item">
             <img class="work-foto" src="./img/make-bild-2.webp" width="200" alt="комп." />
-            <button class="work-btn">МОБІЛЬНІ ДОДАТКИ</button>
+            <button class="work-btn" type="button">МОБІЛЬНІ ДОДАТКИ</button>
           </li>
           <li class="work-item">
             <img class="work-foto" src="./img/make-bild-3.webp" width="200" alt="комп." />
-            <button class="work-btn">ДИЗАЙНЕРСЬКІ РІШЕННЯ</button>
+            <button class="work-btn" type="button">ДИЗАЙНЕРСЬКІ РІШЕННЯ</button>
           </li>
         </ul>
       </div>
@@ -137,29 +181,29 @@
               <li class="team-icon-item">
                 <a class="team-focus" href="#">
                   <svg class="team-icon">
-                  <use href="./scv/icon.svg#icon-instagram"></use>
-                </svg>
+                    <use href="./scv/icon.svg#icon-instagram"></use>
+                  </svg>
                 </a>
               </li>
               <li class="team-icon-item">
                 <a class="team-focus" href="#">
                   <svg class="team-icon">
-                  <use href="./scv/icon.svg#icon-twitter"></use>
-                </svg>
+                    <use href="./scv/icon.svg#icon-twitter"></use>
+                  </svg>
                 </a>
               </li>
               <li class="team-icon-item">
                 <a class="team-focus" href="#">
                   <svg class="team-icon">
-                  <use href="./scv/icon.svg#icon-facebook"></use>
-                </svg>
+                    <use href="./scv/icon.svg#icon-facebook"></use>
+                  </svg>
                 </a>
               </li>
               <li class="team-icon-item">
                 <a class="team-focus" href="#">
                   <svg class="team-icon">
-                  <use href="./scv/icon.svg#icon-linkedin"></use>
-                </svg>
+                    <use href="./scv/icon.svg#icon-linkedin"></use>
+                  </svg>
                 </a>
               </li>
             </ul>
