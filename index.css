@@ -80,9 +80,10 @@ ul {
 
 .address-icon {
     fill: var(--gray);
-    width: 10px;
-    height: 16px;
+    width: 16px;
+    height: 10px;
 }
+
 
 .address-link:hover {
     color: var(--blue);
@@ -298,6 +299,12 @@ ul {
     height: 50px;
     flex-shrink: 0;
     border: none;
+}
+
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .modal-box {

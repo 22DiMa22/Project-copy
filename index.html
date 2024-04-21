@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./conteiner.css">
-  <link rel="stylesheet" href="./modal.js">
+  <link rel="stylesheet" href="./js/modal.js">
 </head>
 
 <body>
@@ -59,50 +59,8 @@
       <div class="conteiner">
         <h1 class="decition-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
         </h1>
-        <button type="button" class="button-first" data-modal-open>Замовити послугу</button>
-        <div class="backdrop">
-          <div class="modal" data-modal>
-            <script src="./js/modal.js"></script>
-            <button class="button-second" data-modal-close>
-              <svg class="modal-close">
-                <use href="./scv/icon.svg#icon-close"></use>
-              </svg>
-            </button>
-            <h3 class="modal-title">Залиште свої дані, ми вам передзвонимоㅤ</h3>
-            <ul class="modal-list">
-              <li class="modal-item">
-                <p class="modal-text">Ім'я</p>
-                <input class="write-modal" type="Введіть текст">
-                <svg class="modal-svg">
-                  <use href="./scv/icon.svg#icon-modal-person"></use>
-                </svg>
-              </li>
-              <li class="modal-item">
-                <p class="modal-text">Телефон</p>
-                <input class="write-modal" type="text">
-                <svg class="modal-svg">
-                  <use href="./scv/icon.svg#icon-modal-phone"></use>
-                </svg>
-              </li>
-              <li class="modal-item">
-                <p class="modal-text">Пошта</p>
-                <input class="write-modal" type="text">
-                <svg class="modal-svg">
-                  <use href="./scv/icon.svg#icon-modal-email"></use>
-                </svg>
-              </li>
-              <li class="modal-item">
-                <p class="modal-text">Коментар</p>
-                <input placeholder="Введіть текст" class="write-modal-big" type="text">
-              </li>
-            </ul>
-            <div class="modal-box">
-              <input class="checkbox"  type="checkbox">
-              <p class="conditions-text">Погоджуюся з розсилкою та приймаю <span class="conditions-text-two">Умови договору</span></p>
-            </div>
-            <button class="send-btn">Відправити</button>
-          </div>
-        </div>
+        <button data-modal-open type="button" class="button-first">Замовити послугу</button>
+
       </div>
     </section>
     <section class="text-index">
@@ -378,6 +336,50 @@
       </div>
     </div>
   </footer>
+  <div data-modal class="backdrop is-hidden">
+    <div class="modal">
+      <button data-modal-close class="button-second">
+        <svg class="modal-close">
+          <use href="./scv/icon.svg#icon-close"></use>
+        </svg>
+      </button>
+      <h3 class="modal-title">Залиште свої дані, ми вам передзвонимоㅤ</h3>
+      <ul class="modal-list">
+        <li class="modal-item">
+          <p class="modal-text">Ім'я</p>
+          <input class="write-modal" type="text">
+          <svg class="modal-svg">
+            <use href="./scv/icon.svg#icon-modal-person"></use>
+          </svg>
+        </li>
+        <li class="modal-item">
+          <p class="modal-text">Телефон</p>
+          <input class="write-modal" type="text">
+          <svg class="modal-svg">
+            <use href="./scv/icon.svg#icon-modal-phone"></use>
+          </svg>
+        </li>
+        <li class="modal-item">
+          <p class="modal-text">Пошта</p>
+          <input class="write-modal" type="text">
+          <svg class="modal-svg">
+            <use href="./scv/icon.svg#icon-modal-email"></use>
+          </svg>
+        </li>
+        <li class="modal-item">
+          <p class="modal-text">Коментар</p>
+          <input placeholder="Введіть текст" class="write-modal-big" type="text">
+        </li>
+      </ul>
+      <div class="modal-box">
+        <input class="checkbox" type="checkbox">
+        <p class="conditions-text">Погоджуюся з розсилкою та приймаю <span class="conditions-text-two">Умови
+            договору</span></p>
+      </div>
+      <button class="send-btn" type="submit">Відправити</button>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
