@@ -23,6 +23,10 @@
     color: var(--blue);
 }
 
+.modal-svg:focus {
+    fill: var(--blue);
+}
+
 a {
     text-decoration: none;
 }
@@ -62,7 +66,15 @@ ul {
     color: var(--blue);
 }
 
-
+.nav-link::after:hover {
+    content: ' ';
+    display: block;
+    width: 48px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #2196F3;
+}
 
 .address-link {
     font-family: 'Roboto';
@@ -83,7 +95,6 @@ ul {
     width: 16px;
     height: 10px;
 }
-
 
 .address-link:hover {
     color: var(--blue);
@@ -217,6 +228,17 @@ ul {
     margin-top: 10px;
 }
 
+.modal-text-two {
+    color: var(--gray);
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    text-align: start;
+}
+
 .modal-text:nth-child(1) {
     width: 22px;
     height: 14px;
@@ -257,6 +279,12 @@ ul {
     letter-spacing: 0.12px;
 }
 
+.modal-boxik {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
 .write-modal-big {
     display: block;
     border-radius: 4px;
@@ -268,6 +296,7 @@ ul {
     width: 448px;
     height: 120px;
     padding: 0px 16px 82px 16px;
+    margin-top: 2px;
 }
 
 .conditions-text {
@@ -318,6 +347,15 @@ ul {
 
 .modal-item {
     position: relative;
+}
+
+.modal-div:hover .write-modal {
+    border-radius: 4px;
+    border: 1px solid #2196F3;
+}
+
+.modal-div:hover .modal-svg {
+    fill: var(--blue);
 }
 
 .checkbox {
@@ -750,4 +788,59 @@ ul {
 
 .box-2-item:hover {
     background-color: var(--blue);
+}
+
+.footer-form {
+    padding-top: 12px;
+    margin-left: 93px;
+}
+
+.footer-send {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--blue);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    border: none;
+    padding: 10px 62px 10px 28px;
+    position: relative;
+    margin-left: 12px;
+}
+
+.form-svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--white);
+    position: absolute;
+    right: 28px;
+    bottom: 13px;
+}
+
+.footer-input {
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: rgba(255, 255, 255, 0.60);
+    flex-shrink: 0;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.48px;
+    padding: 15px 16px 15px 16px;
+}
+
+.form-box {
+    margin-top: 20px;
 }

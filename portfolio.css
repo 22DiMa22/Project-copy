@@ -75,6 +75,10 @@ ul {
     color: var(--black-2);
 }
 
+.nav-link:hover {
+    color: var(--blue);
+}
+
 .address-link:hover {
     color: var(--blue);
 }
@@ -328,4 +332,59 @@ ul {
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+}
+
+.footer-form {
+    padding-top: 12px;
+    margin-left: 93px;
+}
+
+.footer-send {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--blue);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    border: none;
+    padding: 10px 62px 10px 28px;
+    position: relative;
+    margin-left: 12px;
+}
+
+.form-svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--white);
+    position: absolute;
+    right: 28px;
+    bottom: 13px;
+}
+
+.footer-input {
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: rgba(255, 255, 255, 0.60);
+    flex-shrink: 0;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.48px;
+    padding: 15px 16px 15px 16px;
+}
+
+.form-box {
+    margin-top: 20px;
 }
