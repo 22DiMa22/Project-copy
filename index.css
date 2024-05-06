@@ -81,6 +81,7 @@ ul {
 
 .nav-link:hover {
     color: var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .nav-link:hover::after {
@@ -116,6 +117,7 @@ ul {
 
 .address-link:hover {
     color: var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .address-box {
@@ -125,10 +127,12 @@ ul {
 
 .address-box:hover .address-icon {
     fill: var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .address-box:hover .address-link {
     color: var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .address-icon {
@@ -210,6 +214,11 @@ ul {
     width: 18px;
     height: 18px;
     fill: var(--black);
+}
+
+.button-second:hover .modal-close {
+    fill: var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .button-second {
@@ -317,6 +326,12 @@ ul {
     margin-top: 2px;
 }
 
+.write-modal-big:hover {
+    border-radius: 4px;
+    border: 1px solid var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
 .conditions-text {
     color: var(--gray);
     font-family: 'Roboto';
@@ -346,6 +361,9 @@ ul {
     height: 50px;
     flex-shrink: 0;
     border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .is-hidden {
@@ -369,11 +387,13 @@ ul {
 
 .modal-div:hover .write-modal {
     border-radius: 4px;
-    border: 1px solid #2196F3;
+    border: 1px solid var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .modal-div:hover .modal-svg {
     fill: var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .checkbox {
@@ -609,10 +629,12 @@ ul {
 
 .team-icon-item:hover .team-icon {
     fill: var(--white);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .team-icon-item:hover {
     background-color: var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .customers {
@@ -651,6 +673,7 @@ ul {
     fill: var(--blue);
     border-radius: 4px;
     border: 1px solid var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .footer-title {
@@ -806,6 +829,7 @@ ul {
 
 .box-2-item:hover {
     background-color: var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .footer-form {
