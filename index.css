@@ -495,9 +495,11 @@ ul {
     position: relative;
 }
 
-.work-btn {
+.work-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--white);
-    text-align: center;
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: 700;
