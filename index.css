@@ -77,32 +77,35 @@ ul {
     letter-spacing: 0.02em;
     color: var(--black-2);
     position: relative;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, background-color;
 }
 
 .nav-link:hover {
     color: var(--blue);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.nav-link::after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: var(--blue);
+    opacity: 0;
+    position: absolute;
+    bottom: -31px;
+    display: block;
+    transition-property: opacity, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(0);
 }
 
 .nav-link:hover::after {
-    content: ' ';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background: var(--blue);
-    bottom: -31px;
-}
-
-.address-link {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--gray);
-}
+    opacity: 1;
+    transform: scale(1);
+  }
 
 .header-nav {
     display: flex;
@@ -115,9 +118,20 @@ ul {
     height: 10px;
 }
 
+.address-link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--gray);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+}
+
 .address-link:hover {
     color: var(--blue);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .address-box {
@@ -127,12 +141,10 @@ ul {
 
 .address-box:hover .address-icon {
     fill: var(--blue);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .address-box:hover .address-link {
     color: var(--blue);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .address-icon {
@@ -140,6 +152,9 @@ ul {
     height: 12px;
     flex-shrink: 0;
     margin-right: 10px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
 }
 
 .decision {
@@ -214,11 +229,13 @@ ul {
     width: 18px;
     height: 18px;
     fill: var(--black);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
 }
 
 .button-second:hover .modal-close {
     fill: var(--blue);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .button-second {
@@ -304,6 +321,9 @@ ul {
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.12px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 
 .modal-boxik {
@@ -313,7 +333,6 @@ ul {
 }
 
 .write-modal-big {
-    display: block;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
     font-family: 'Roboto';
@@ -324,12 +343,14 @@ ul {
     height: 120px;
     padding: 0px 16px 82px 16px;
     margin-top: 2px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 
 .write-modal-big:hover {
     border-radius: 4px;
     border: 1px solid var(--blue);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .conditions-text {
@@ -388,12 +409,10 @@ ul {
 .modal-div:hover .write-modal {
     border-radius: 4px;
     border: 1px solid var(--blue);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .modal-div:hover .modal-svg {
     fill: var(--blue);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .checkbox {
@@ -413,6 +432,9 @@ ul {
     position: absolute;
     left: 12px;
     bottom: 11px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
 }
 
 .text-list {
@@ -620,6 +642,9 @@ ul {
     width: 20px;
     height: 20px;
     fill: var(--gray-2);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
 }
 
 .team-icon-item {
@@ -627,16 +652,17 @@ ul {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 
 .team-icon-item:hover .team-icon {
     fill: var(--white);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .team-icon-item:hover {
     background-color: var(--blue);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .customers {
@@ -669,13 +695,15 @@ ul {
     border: 1px solid var(--gray-2);
     fill: var(--gray-2);
     padding: 16px 32px 16px 32px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
 }
 
 .customer-icon:hover {
     fill: var(--blue);
     border-radius: 4px;
     border: 1px solid var(--blue);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .footer-title {
@@ -827,11 +855,13 @@ ul {
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.10);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
 }
 
 .box-2-item:hover {
     background-color: var(--blue);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .footer-form {
