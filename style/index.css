@@ -694,6 +694,10 @@
     left: 0px;
     top: 0px;
     backdrop-filter: 1px;
+    /*transition: opacity 250ms linear , visibility 250ms linear;*/
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-property: opacity visibility;
 }
 
 .modal {
