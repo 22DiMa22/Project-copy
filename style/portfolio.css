@@ -253,8 +253,6 @@
     background: #FFF;
     max-width: 370px;
     flex-basis: calc((100% - (30px * 2)) / 3);
-    position: relative;
-    overflow: hidden;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border , background-color , box-shadow;
@@ -302,6 +300,11 @@
     line-height: 28px;
     letter-spacing: 0.54px;
     max-width: 322px;
+    overflow: hidden;
+}
+
+.text-overlay {
+    position: relative;
     overflow: hidden;
 }
 
