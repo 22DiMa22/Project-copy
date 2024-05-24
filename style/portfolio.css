@@ -319,63 +319,63 @@
     animation-name: box-1;
     animation-iteration-count: infinite;
     animation-delay: 1s;
-    animation-duration: 2s;
+    animation-duration: 5s;
 }
 
 .text-item:nth-child(2) {
     animation-name: box-2;
     animation-iteration-count: infinite;
     animation-delay: 1.5s;
-    animation-duration: 2s;
+    animation-duration: 5s;
 }
 
 .text-item:nth-child(3) {
     animation-name: box-3;
     animation-iteration-count: infinite;
     animation-delay: 2s;
-    animation-duration: 2s;
+    animation-duration: 5s;
 }
 
 .text-item:nth-child(4) {
     animation-name: box-4;
     animation-iteration-count: infinite;
     animation-delay: 2.5s;
-    animation-duration: 2s;
+    animation-duration: 5s;
 }
 
 .text-item:nth-child(5) {
     animation-name: box-5;
     animation-iteration-count: infinite;
     animation-delay: 3s;
-    animation-duration: 2s;
+    animation-duration: 5s;
 }
 
 .text-item:nth-child(6) {
     animation-name: box-6;
     animation-iteration-count: infinite;
     animation-delay: 3.5s;
-    animation-duration: 2s;
+    animation-duration: 5s;
 }
 
 .text-item:nth-child(7) {
     animation-name: box-7;
     animation-iteration-count: infinite;
     animation-delay: 4s;
-    animation-duration: 2s;
+    animation-duration: 5s;
 }
 
 .text-item:nth-child(8) {
     animation-name: box-8;
     animation-iteration-count: infinite;
     animation-delay: 4.5s;
-    animation-duration: 2s;
+    animation-duration: 5s;
 }
 
 .text-item:nth-child(9) {
     animation-name: box-9;
     animation-iteration-count: infinite;
     animation-delay: 5s;
-    animation-duration: 2s;
+    animation-duration: 5s;
 }
 
 @keyframes box-1 {
@@ -384,7 +384,7 @@
     }
 
     5% {
-        transform: rotate(5deg);
+        transform: rotate(3deg);
     }
 
     10% {
@@ -392,7 +392,7 @@
     }
 
     15% {
-        transform: rotate(-5deg);
+        transform: rotate(-3deg);
     }
 
     20% {
@@ -409,7 +409,7 @@
     }
 
     5% {
-        transform: rotate(5deg);
+        transform: rotate(3deg);
     }
 
     10% {
@@ -417,7 +417,7 @@
     }
 
     15% {
-        transform: rotate(-5deg);
+        transform: rotate(-3deg);
     }
 
     20% {
@@ -434,7 +434,7 @@
     }
 
     5% {
-        transform: rotate(5deg);
+        transform: rotate(3deg);
     }
 
     10% {
@@ -442,7 +442,7 @@
     }
 
     15% {
-        transform: rotate(-5deg);
+        transform: rotate(-3deg);
     }
 
     20% {
@@ -459,7 +459,7 @@
     }
 
     5% {
-        transform: rotate(5deg);
+        transform: rotate(3deg);
     }
 
     10% {
@@ -467,7 +467,7 @@
     }
 
     15% {
-        transform: rotate(-5deg);
+        transform: rotate(-3deg);
     }
 
     20% {
@@ -484,7 +484,7 @@
     }
 
     5% {
-        transform: rotate(5deg);
+        transform: rotate(3deg);
     }
 
     10% {
@@ -492,7 +492,7 @@
     }
 
     15% {
-        transform: rotate(-5deg);
+        transform: rotate(-3deg);
     }
 
     20% {
@@ -509,7 +509,7 @@
     }
 
     5% {
-        transform: rotate(5deg);
+        transform: rotate(3deg);
     }
 
     10% {
@@ -517,7 +517,7 @@
     }
 
     15% {
-        transform: rotate(-5deg);
+        transform: rotate(-3deg);
     }
 
     20% {
@@ -534,7 +534,7 @@
     }
 
     5% {
-        transform: rotate(5deg);
+        transform: rotate(3deg);
     }
 
     10% {
@@ -542,7 +542,7 @@
     }
 
     15% {
-        transform: rotate(-5deg);
+        transform: rotate(-3deg);
     }
 
     20% {
@@ -559,7 +559,7 @@
     }
 
     5% {
-        transform: rotate(5deg);
+        transform: rotate(3deg);
     }
 
     10% {
@@ -567,7 +567,7 @@
     }
 
     15% {
-        transform: rotate(-5deg);
+        transform: rotate(-3deg);
     }
 
     20% {
@@ -584,7 +584,7 @@
     }
 
     5% {
-        transform: rotate(5deg);
+        transform: rotate(3deg);
     }
 
     10% {
@@ -592,7 +592,7 @@
     }
 
     15% {
-        transform: rotate(-5deg);
+        transform: rotate(-3deg);
     }
 
     20% {
