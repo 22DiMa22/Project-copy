@@ -1,0 +1,126 @@
+.team {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    background-color: var(--white-2);
+}
+
+.team-first {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--white);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team-second {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--white);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team-third {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--white);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team-fourth {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--white);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team-headline {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-2);
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-man {
+    width: 270px;
+    height: 260px;
+}
+
+.second-man {
+    width: 270px;
+    height: 260px;
+}
+
+.third-man {
+    width: 270px;
+    height: 260px;
+}
+
+.fourth-man {
+    width: 270px;
+    height: 260px;
+}
+
+.team-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-2);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.team-info {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--gray);
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.team-icons-list {
+    display: flex;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+
+.team-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--gray-2);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
+}
+
+.team-icon-item {
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color;
+}
+
+.team-icon-item:hover .team-icon {
+    fill: var(--white);
+}
+
+.team-icon-item:hover {
+    background-color: var(--blue);
+}

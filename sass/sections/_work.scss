@@ -1,0 +1,49 @@
+.work {
+    padding-bottom: 94px;
+}
+
+.work-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-2);
+}
+
+.work-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.work-foto {
+    width: 370px;
+    height: 294px;
+}
+
+.work-item {
+    position: relative;
+}
+
+.work-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    width: 370px;
+    height: 70px;
+    flex-shrink: 0;
+    background: rgba(47, 48, 58, 0.80);
+    border: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
