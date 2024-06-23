@@ -26,7 +26,7 @@
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        color: var(--blue);
+        color: $button-hover-color;
     }
 
     &__logo--two {
@@ -35,7 +35,7 @@
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        color: var(--black);
+        color: $text-title-color;
     }
 
     &__link {
@@ -44,7 +44,7 @@
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        color: var(--black-2);
+        color: $background-color;
         position: relative;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -52,7 +52,7 @@
     }
 
     &__link:hover {
-        color: var(--blue);
+        color: $button-hover-color;
     }
 
     &__link::after {
@@ -60,7 +60,7 @@
         height: 4px;
         width: 100%;
         border-radius: 2px;
-        background-color: var(--blue);
+        background-color: $button-hover-color;
         opacity: 0;
         position: absolute;
         bottom: -31px;
@@ -81,13 +81,19 @@
         align-items: center;
     }
 
+    &__list  {
+        display: flex;
+        gap: 50px;
+        margin-left: 93px;
+    }
+
     &__icon {
-        fill: var(--gray);
+        fill: $small-text-color;
         width: 16px;
         height: 10px;
     }
 
-    &__address--link {
+    &__contact {
         font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
@@ -99,8 +105,8 @@
         transition-property: color;
     }
 
-    &__address--link:hover {
-        color: var(--blue);
+    &__contact:hover {
+        color: $button-hover-color;
     }
 
     &__box {
@@ -108,12 +114,12 @@
         align-items: center;
     }
 
-    &__box:hover .address-icon {
-        fill: var(--blue);
+    &__box:hover &__icon {
+        fill: $button-hover-color;
     }
 
-    &__box:hover .address-link {
-        color: var(--blue);
+    &__box:hover &__link {
+        color: $button-hover-color;
     }
 
     &__icon {
@@ -126,4 +132,10 @@
         transition-property: fill;
     }
 
+    &__addresses {
+        display: flex;
+        margin-left: 315px;
+        gap: 27px;
+        align-items: center;
+    }
 }

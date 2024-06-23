@@ -1,146 +1,142 @@
-.nav-link:focus {
-    color: var(--blue);
-}
-
-.address-link:focus {
-    color: var(--blue);
-}
-
 .nav-focus:focus {
     fill: var(--blue);
 }
 
 .header {
-    border-bottom: solid var(--white-3);
+    border-bottom: solid $header-underline-color;
 
-}
+    &__link:focus {
+        color: $button-hover-color;
+    }
 
-.logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--blue);
-}
+    &__link2:focus {
+        color: $button-hover-color;
+    }
 
-.logo-two {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--black);
-}
+    &__logo {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: $button-hover-color;
+    }
 
-.nav-link {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--black-2);
-    position: relative;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color;
-}
+    &__logo2 {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: $text-title-color;
+    }
 
-.nav-link:hover {
-    color: var(--blue);
-}
+    &__link {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: $background-color;
+        position: relative;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color;
+    }
 
-.nav-link::after {
-    content: "";
-    height: 4px;
-    width: 100%;
-    border-radius: 2px;
-    background-color: var(--blue);
-    opacity: 0;
-    position: absolute;
-    bottom: -31px;
-    display: block;
-    transition-property: opacity, transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transform: scale(0);
-}
+    &__link:hover {
+        color: $button-hover-color;
+    }
 
-.nav-link:hover::after {
-    opacity: 1;
-    transform: scale(1);
-  }
+    &__link::after {
+        content: "";
+        height: 4px;
+        width: 100%;
+        border-radius: 2px;
+        background-color: $button-hover-color;
+        opacity: 0;
+        position: absolute;
+        bottom: -31px;
+        display: block;
+        transition-property: opacity, transform;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transform: scale(0);
+    }
 
-  .address-link:hover {
-    color: var(--blue);
-}
+    &__link:hover::after {
+        opacity: 1;
+        transform: scale(1);
+    }
 
-.address-link {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--gray);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color;
-}
+    &__link2:hover {
+        color: $button-hover-color;
+    }
 
-.address-link:hover {
-    color: var(--blue);
-}
+    &__link2 {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: $small-text-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color;
+    }
 
-.address-box {
-    display: flex;
-}
+    &__link2:hover {
+        color: $button-hover-color;
+    }
 
-.address-box:hover .address-icon {
-    fill: var(--blue);
-}
+    &__box:hover &__icon {
+        fill: $button-hover-color;
+    }
 
-.address-box:hover .address-link {
-    color: var(--blue);
-}
+    &__box:hover &__link2 {
+        color: $button-hover-color;
+    }
 
-.address-icon:nth-child(1) {
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    fill: var(--gray);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill;
-}
+    &__icon:nth-child(1) {
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+        fill: $small-text-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: fill;
+    }
 
-.address-icon:nth-child(2) {
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-    fill: var(--gray);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill;
-}
+    &__icon:nth-child(2) {
+        width: 10px;
+        height: 16px;
+        margin-right: 10px;
+        fill: $small-text-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: fill;
+    }
 
-.header-nav {
-    display: flex;
-    align-items: center;
-}
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
 
-.nav-one {
-    display: flex;
-    gap: 50px;
-    margin-left: 93px;
-}
+    &__one {
+        display: flex;
+        gap: 50px;
+        margin-left: 93px;
+    }
 
-.address {
-    margin-left: 310px;
-    display: flex;
-    gap: 30px;
-}
+    &__address {
+        margin-left: 310px;
+        display: flex;
+        gap: 30px;
+    }
 
-.address-box {
-    display: flex;
-    align-items: center;
+    &__box {
+        display: flex;
+        align-items: center;
+    }
+
 }
