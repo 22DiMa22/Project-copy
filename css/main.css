@@ -12,6 +12,66 @@
   padding-bottom: 24px;
 }
 
+html, body, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+img {
+  display: block;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
 .address-link:focus {
   color: var(--blue);
 }
@@ -35,7 +95,6 @@
   z-index: 2;*/
 }
 .header__logo {
-  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -43,7 +102,6 @@
   color: #2196F3;
 }
 .header__logo--two {
-  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -51,7 +109,6 @@
   color: #000000;
 }
 .header__link {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -99,7 +156,6 @@
   height: 10px;
 }
 .header__contact {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -132,10 +188,8 @@
   transition-property: fill;
 }
 .header__addresses {
-  display: flex;
-  margin-left: 315px;
+  @in margin-left: 315px;
   gap: 27px;
-  align-items: center;
 }
 
 .decision {
@@ -145,7 +199,6 @@
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/background-index.webp);
 }
 .decision__title {
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -166,7 +219,6 @@
   margin-right: auto;
   display: block;
   color: #ffffff;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -199,7 +251,6 @@
   padding: 25px 100px 25px 100px;
 }
 .text__title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -208,7 +259,6 @@
   color: #212121;
 }
 .text__info {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -223,7 +273,6 @@
   padding-bottom: 94px;
 }
 .work__title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -249,7 +298,6 @@
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  font-family: "Roboto";
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -279,7 +327,6 @@
   height: 260px;
 }
 .team__headline {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -295,7 +342,6 @@
   margin-right: auto;
 }
 .team__title {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -306,7 +352,6 @@
   margin-bottom: 10px;
 }
 .team__info {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -354,7 +399,6 @@
 .customers__title {
   color: #212121;
   text-align: center;
-  font-family: "Roboto";
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -450,7 +494,6 @@
 .modal-title {
   color: var(--black-2);
   text-align: center;
-  font-family: "Roboto";
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.6px;
@@ -459,7 +502,6 @@
 
 .modal-text {
   color: var(--gray);
-  font-family: "Roboto";
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.12px;
@@ -469,7 +511,6 @@
 
 .modal-text-two {
   color: var(--gray);
-  font-family: "Roboto";
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.12px;
@@ -512,7 +553,6 @@
   width: 448px;
   height: 40px;
   padding: 0px 42px 0px 42px;
-  font-family: "Roboto";
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.12px;
@@ -530,7 +570,6 @@
 .write-modal-big {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  font-family: "Roboto";
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.12px;
@@ -550,7 +589,6 @@
 
 .conditions-text {
   color: var(--gray);
-  font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -568,7 +606,6 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--white);
   text-align: center;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -648,7 +685,6 @@
   color: #ffffff;
 }
 .footer__place {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -658,7 +694,6 @@
 }
 .footer__logo {
   color: #2196F3;
-  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -667,7 +702,6 @@
 }
 .footer__logo2 {
   color: #ffffff;
-  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -675,7 +709,6 @@
   margin-bottom: 20px;
 }
 .footer__info {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -735,7 +768,6 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #ffffff;
   text-align: center;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -762,7 +794,6 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: rgba(255, 255, 255, 0.6);
   flex-shrink: 0;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -785,62 +816,242 @@
   gap: 30px;
 }
 
-html, body, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+@keyframes btn {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  5% {
+    transform: translate(25px, 0px);
+  }
+  10% {
+    transform: translate(0px, 0px);
+  }
+  15% {
+    transform: translate(-25px, 0px);
+  }
+  20% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(-25px, 0px);
+  }
+  30% {
+    transform: translate(0px, 0px);
+  }
+  35% {
+    transform: translate(25px, 0px);
+  }
+  40% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes btn-send {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  5% {
+    transform: translate(5px, 5px);
+  }
+  10% {
+    transform: translate(5px, -5px);
+  }
+  15% {
+    transform: translate(-5px, -5px);
+  }
+  20% {
+    transform: translate(-5px, 5px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes box-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(3deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(-3deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes box-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(3deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(-3deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes box-3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(3deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(-3deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes box-4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(3deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(-3deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes box-5 {
+  0% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(3deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(-3deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes box-6 {
+  0% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(3deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(-3deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes box-7 {
+  0% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(3deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(-3deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes box-8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(3deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(-3deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes box-9 {
+  0% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(3deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(-3deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.header__link, .header__contact, .decision__title, .decision__buttonfirst, .text__title, .text__info, .work__title, .work__box, .team__headline, .team__title, .team__info, .customers__title, .modal-title, .modal-text, .modal-text-two, .write-modal, .write-modal-big, .conditions-text, .send-btn, .footer__place, .footer__info, .footer__send, .footer__input {
+  font-family: "Roboto";
 }
 
-img {
-  display: block;
-}
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-a {
-  text-decoration: none;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-button {
-  cursor: pointer;
+.header__logo, .header__logo--two, .footer__logo, .footer__logo2 {
+  font-family: "Raleway";
 }/*# sourceMappingURL=main.css.map */

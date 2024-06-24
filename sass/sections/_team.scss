@@ -15,7 +15,7 @@
     }
 
     &__headline {
-        font-family: 'Roboto';
+        @extend %title-fonts;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -33,7 +33,7 @@
     }
 
     &__title {
-        font-family: 'Roboto';
+        @extend %title-fonts;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
@@ -45,7 +45,7 @@
     }
 
     &__info {
-        font-family: 'Roboto';
+        @extend %title-fonts;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.18;

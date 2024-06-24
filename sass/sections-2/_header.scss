@@ -14,7 +14,7 @@
     }
 
     &__logo {
-        font-family: 'Raleway';
+        @extend %title-fonst2;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -23,7 +23,7 @@
     }
 
     &__logo2 {
-        font-family: 'Raleway';
+        @extend %title-fonst2;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -32,7 +32,7 @@
     }
 
     &__link {
-        font-family: 'Roboto';
+        @extend %title-fonst;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -74,7 +74,7 @@
     }
 
     &__link2 {
-        font-family: 'Roboto';
+        @extend %title-fonst;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;

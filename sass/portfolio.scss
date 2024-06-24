@@ -1,7 +1,10 @@
 @import "./utilites/variables";
 @import "./base/common";
+@import "./base/reset";
 @import "./sections-2/header";
 @import "./sections-2/decition-section";
 @import "./sections-2/text";
 @import "./sections-2/footer";
-@import "./base/reset";
+@import "./utilites/keyframe";
+@import "./utilites/placeholder";
+@import "./utilites/mixin";

@@ -1,11 +1,14 @@
 @import "./utilites/variables";
 @import "./base/common";
+@import "./base/reset";
 @import "./sections/header";
 @import "./sections/decision";
-@import "./sections/text-index";
+@import "./sections/text";
 @import "./sections/work";
 @import "./sections/team";
 @import "./sections/customers";
 @import "./sections/modal";
 @import "./sections/footer";
-@import "./base/reset";
+@import "./utilites/keyframe";
+@import "./utilites/mixin";
+@import "./utilites/placeholder";

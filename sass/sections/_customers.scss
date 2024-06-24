@@ -5,7 +5,7 @@
     &__title {
         color: $background-color;
         text-align: center;
-        font-family: 'Roboto';
+        @extend %title-fonts;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;

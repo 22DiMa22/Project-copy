@@ -21,7 +21,7 @@
     z-index: 2;*/
 
     &__logo {
-        font-family: 'Raleway';
+        @extend %title-fonts2;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -30,7 +30,7 @@
     }
 
     &__logo--two {
-        font-family: 'Raleway';
+        @extend %title-fonts2;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -39,7 +39,7 @@
     }
 
     &__link {
-        font-family: 'Roboto';
+        @extend %title-fonts;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -77,13 +77,11 @@
     }
 
     &__nav {
-        display: flex;
-        align-items: center;
+        @include flex-box;
     }
 
     &__list  {
-        display: flex;
-        gap: 50px;
+        @include flex-box($gap: 50px);
         margin-left: 93px;
     }
 
@@ -94,7 +92,7 @@
     }
 
     &__contact {
-        font-family: 'Roboto';
+        @extend %title-fonts;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -110,8 +108,7 @@
     }
 
     &__box {
-        display: flex;
-        align-items: center;
+        @include flex-box;
     }
 
     &__box:hover &__icon {
@@ -133,9 +130,7 @@
     }
 
     &__addresses {
-        display: flex;
+        @include flex-box($gap: 27px);
         margin-left: 315px;
-        gap: 27px;
-        align-items: center;
     }
 }

@@ -5,7 +5,7 @@
 
     &__logo {
         color: $button-hover-color;
-        font-family: 'Raleway';
+        @extend %title-fonst2;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -15,7 +15,7 @@
 
     &__logo2 {
         color: $text-color;
-        font-family: 'Raleway';
+        @extend %title-fonst2;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -25,7 +25,7 @@
 
     &__title {
         color: $text-color;
-        font-family: 'Roboto';
+        @extend %title-fonst;
         font-size: 14px;
         font-weight: 700;
         letter-spacing: 0.42px;
@@ -33,7 +33,7 @@
     }
 
     &__place {
-        font-family: 'Roboto';
+        @extend %title-fonst;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -44,7 +44,7 @@
     }
 
     &__info {
-        font-family: 'Roboto';
+        @extend %title-fonst;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -106,7 +106,7 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: $text-color;
         text-align: center;
-        font-family: 'Roboto';
+        @extend %title-fonst;
         font-size: 16px;
         font-weight: 700;
         line-height: 30px;
@@ -119,32 +119,6 @@
         animation-iteration-count: infinite;
         animation-duration: 4s;
         animation-delay: 3s;
-    }
-
-    @keyframes btn-send {
-        0% {
-            transform: translate(0px, 0px);
-        }
-
-        5% {
-            transform: translate(5px, 5px);
-        }
-
-        10% {
-            transform: translate(5px, -5px);
-        }
-
-        15% {
-            transform: translate(-5px, -5px);
-        }
-
-        20% {
-            transform: translate(-5px, 5px);
-        }
-
-        100% {
-            transform: translate(0px, 0px);
-        }
     }
 
     &__form-svg {
@@ -165,7 +139,7 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: rgba(255, 255, 255, 0.60);
         flex-shrink: 0;
-        font-family: 'Roboto';
+        @extend %title-fonst;
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
