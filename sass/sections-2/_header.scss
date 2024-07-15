@@ -1,6 +1,6 @@
-.nav-focus:focus {
+/*.nav-focus:focus {
     fill: var(--blue);
-}
+}*/
 
 .header {
     border-bottom: solid $header-underline-color;
@@ -14,29 +14,17 @@
     }
 
     &__logo {
-        @extend %title-fonst2;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+        @extend %logo;
         color: $button-hover-color;
     }
 
     &__logo2 {
-        @extend %title-fonst2;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+        @extend %logo;
         color: $text-title-color;
     }
 
     &__link {
-        @extend %title-fonst;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+        @extend %contact-pages;
         color: $background-color;
         position: relative;
         transition-duration: 250ms;
@@ -74,11 +62,7 @@
     }
 
     &__link2 {
-        @extend %title-fonst;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+        @extend %contact-pages;
         color: $small-text-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -118,25 +102,21 @@
     }
 
     &__nav {
-        display: flex;
-        align-items: center;
+        @include flex-box();
     }
 
     &__one {
-        display: flex;
-        gap: 50px;
+        @include flex-box($gap: 50px);
         margin-left: 93px;
     }
 
     &__address {
         margin-left: 310px;
-        display: flex;
-        gap: 30px;
+        @include flex-box($gap: 30px);
     }
 
     &__box {
-        display: flex;
-        align-items: center;
+        @include flex-box();
     }
 
 }

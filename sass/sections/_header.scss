@@ -1,4 +1,4 @@
-.address-link:focus {
+/*.address-link:focus {
     color: var(--blue);
 }
 
@@ -9,7 +9,7 @@
 .nav-link:focus {
     color: var(--blue);
 }
-
+*/
 .header {
     /* position: fixed;
     width: 100%;
@@ -20,30 +20,22 @@
     border-bottom: solid var(--white-3);
     z-index: 2;*/
 
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+
     &__logo {
-        @extend %title-fonts2;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+        @extend %logo;
         color: $button-hover-color;
     }
 
-    &__logo--two {
-        @extend %title-fonts2;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    &__logo-two {
+        @extend %logo;
         color: $text-title-color;
     }
 
     &__link {
-        @extend %title-fonts;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+        @extend %contact-pages;
         color: $background-color;
         position: relative;
         transition-duration: 250ms;
@@ -77,10 +69,10 @@
     }
 
     &__nav {
-        @include flex-box;
+        @include flex-box();
     }
 
-    &__list  {
+    &__list {
         @include flex-box($gap: 50px);
         margin-left: 93px;
     }
@@ -92,12 +84,8 @@
     }
 
     &__contact {
-        @extend %title-fonts;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: var(--gray);
+        @extend %contact-pages;
+        color: $small-text-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: color;

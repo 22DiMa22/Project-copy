@@ -5,65 +5,40 @@
     padding-bottom: 60px;
 
     &__title {
-        font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.42px;
-        text-transform: uppercase;
         color: $text-color;
     }
 
     &__place {
-        @extend %title-fonts;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
+        @extend %small-text;
         color: $text-color;
     }
 
     &__logo {
         color: $button-hover-color;
-        @extend %title-fonts2;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+        @extend %logo;
         margin-bottom: 20px;
     }
 
     &__logo2 {
         color: $text-color;
-        @extend %title-fonts2;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+        @extend %logo;
         margin-bottom: 20px;
     }
 
     &__info {
-        @extend %title-fonts;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
+        @extend %small-text;
         color: rgba(255, 255, 255, 0.60);
         margin-bottom: 9px;
     }
 
     &__list {
-        display: flex;
+        @include flex-box();
         flex-direction: column;
         column-gap: 9px;
     }
 
     &__box {
-        display: flex;
+        @include flex-box();
     }
 
     &__box2 {
@@ -75,9 +50,8 @@
     }
 
     &__icolist {
-        display: flex;
+        @include flex-box($gap: 10px);
         margin-top: 20px;
-        gap: 10px;
     }
 
     &__box-2-icon {
@@ -115,7 +89,7 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: $text-color;
         text-align: center;
-        @extend %title-fonts;
+        @extend %button;
         font-size: 16px;
         font-weight: 700;
         line-height: 30px;
@@ -135,37 +109,7 @@
         bottom: 13px;
     }
 
-    &__input {
-        width: 358px;
-        height: 50px;
-        border-radius: 4px;
-        border: 1px solid rgba(255, 255, 255, 0.30);
-        background: rgba(33, 150, 243, 0.00);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        color: rgba(255, 255, 255, 0.60);
-        flex-shrink: 0;
-        @extend %title-fonts;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0.48px;
-        padding: 15px 16px 15px 16px;
-    }
-
     &__form-box {
         margin-top: 20px;
     }
-}
-
-
-.nav-one {
-    display: flex;
-    gap: 50px;
-    margin-left: 93px;
-}
-
-.address {
-    margin-left: 310px;
-    display: flex;
-    gap: 30px;
 }

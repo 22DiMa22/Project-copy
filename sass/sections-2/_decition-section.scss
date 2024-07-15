@@ -10,18 +10,11 @@
     }
 
     &__list {
-        display: block;
-        display: flex;
-        justify-content: center;
-        gap: 8px;
+        @include flex-box($gap: 8px);
     }
 
     &__button {
-        @extend %title-fonst;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-        letter-spacing: 0.03em;
+        @extend %button;
         color: $background-color;
         background: $section-icon-btn-color;
         border-radius: 4px;

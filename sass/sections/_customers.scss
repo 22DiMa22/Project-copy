@@ -5,18 +5,12 @@
     &__title {
         color: $background-color;
         text-align: center;
-        @extend %title-fonts;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 1.08px;
+        @extend %section-title;
         margin-bottom: 50px;
     }
 
     &__list {
-        display: flex;
-        gap: 30px;
+        @include flex-box($gap: 30px);
     }
 
     &__icon {

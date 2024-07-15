@@ -1,7 +1,210 @@
-%title-fonts {
-    font-family: 'Roboto';
+/* index */
+
+%logo {
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
 }
 
-%title-fonts2 {
-    font-family: 'Raleway';
+%contact-pages {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+%big-title {
+    font-family: 'Roboto';
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+}
+
+%button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+}
+
+%text {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+%small-text {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+%section-title {
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+%employee-name {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+
+%employee-info {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.48px;
+}
+
+/* modal */
+
+%modal-title {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+%sing-up-text {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+}
+
+%font-style {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+}
+
+/* portfolio */
+
+%hidden-text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.54px;
+}
+
+%box-title {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+}
+
+%box-text {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+}
+
+
+/*         mobile         */
+
+/* index */
+
+%mobile-pages {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+%mobile-nummer {
+    font-family: 'Roboto';
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: 0.68px;
+}
+
+%mobile-email {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+
+%mobile-social-network {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.36px;
+}
+
+%mobile-big-title {
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+}
+
+%mobile-section-title {
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.84px;
+}
+
+%mobile-employee-info {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+
+/* modal */
+
+%mobile-modal-title {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+}
+
+%mobile-conditions {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+}
+
+/* portfolio */
+
+%mobile-button {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+}
+
+%mobile-hidden-text {
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.54px;
 }
