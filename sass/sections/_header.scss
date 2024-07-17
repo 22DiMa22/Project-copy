@@ -73,8 +73,17 @@
     }
 
     &__list {
-        @include flex-box($gap: 50px);
-        margin-left: 93px;
+        display: none;
+
+        @media screen and (min-width: 738px) {
+            @include flex-box($gap: 50px);
+            margin-left: 88px;
+        }
+
+        @media screen and (min-width: 1328px) {
+            @include flex-box($gap: 50px);
+            margin-left: 93px;
+        }
     }
 
     &__icon {
@@ -96,7 +105,7 @@
     }
 
     &__box {
-        @include flex-box;
+        @include flex-box();
     }
 
     &__box:hover &__icon {
@@ -118,7 +127,15 @@
     }
 
     &__addresses {
-        @include flex-box($gap: 27px);
-        margin-left: 315px;
+        display: none;
+
+        @media screen and (max-width: 738px) {
+            margin-left: 96px;
+        }
+
+        @media screen and (min-width: 1328px) {
+            @include flex-box($gap: 27px);
+            margin-left: 315px;
+        }
     }
 }

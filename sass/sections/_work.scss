@@ -1,6 +1,14 @@
 .work {
     padding-bottom: 94px;
 
+    @media screen and (min-width: 738px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 450px) {
+        display: none;
+    }
+
     &__title {
         @extend %section-title;
         text-align: center;

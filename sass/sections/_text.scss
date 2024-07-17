@@ -1,20 +1,42 @@
 .text {
     background: $text-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
-    &__list {
+    @media screen and (min-width: 738px) {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+
+    @media screen and (min-width:1328px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+
+    &__list {
+        @include flex-box($gap: 30px, $wraping: wrap);
+
+        @media screen and (min-width: 738px) {
+            @include flex-box($gap: 30px, $wraping: wrap);
+        }
 
         @media screen and (min-width: 1328px) {
-            padding-top: 94px;
-            padding-bottom: 94px;
-            @include flex-box($gap: 30px);
+            @include flex-box($gap: 30px, $align-vertikal: flex-start);
         }
 
     }
 
     &__item {
-        max-width: 270px;
+        max-width: 450px;
+
+        @media screen and (min-width: 738px) {
+            max-width: 354px;
+        }
+
+        @media screen and (min-width: 1328px) {
+            max-width: 270px;
+        }
     }
 
     &__icon {
@@ -26,17 +48,17 @@
         margin-bottom: 30px;
         padding: 25px 190px 25px 190px;
 
+        @media screen and (min-width: 738px) {
+            width: 354px;
+            height: 120px;
+            padding: 25px 142px 25px 142px;
+        }
+
         @media screen and (min-width: 1328px) {
             width: 270px;
             height: 120px;
-            flex-shrink: 0;
-            border-radius: 4px;
-            background: $section-icon-btn-color;
-            margin-bottom: 30px;
             padding: 25px 100px 25px 100px;
         }
-
-
 
     }
 

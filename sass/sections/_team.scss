@@ -1,7 +1,17 @@
 .team {
-    padding-bottom: 94px;
-    padding-top: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: $section-icon-btn-color;
+
+    @media screen and (min-width: 738px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 738px) {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    }
 
     &__worker {
         border-radius: 0px 0px 4px 4px;
@@ -10,21 +20,48 @@
     }
 
     &__man {
-        width: 270px;
-        height: 260px;
+        width: 450px;
+        height: 460px;
+
+        @media screen and (min-width: 738px) {
+            width: 354px;
+            height: 374px;
+        }
+
+        @media screen and (min-width: 1328px) {
+            width: 270px;
+            height: 260px;
+        }
     }
 
     &__headline {
         @extend %section-title;
         text-align: center;
         color: $background-color;
+        margin-bottom: 30px;
+        
+
+        @media screen and (min-width: 738px) {
+        margin-bottom: 30px;
+        }
+
+        @media screen and (min-width: 1328px) {
         margin-bottom: 50px;
+        }
     }
 
     &__list {
-        @include flex-box($gap: 30px);
-        margin-left: auto;
-        margin-right: auto;
+        @include flex-box($gap: 30px, $wraping: wrap);
+
+        @media screen and (min-width: 738px) {
+            @include flex-box($gap: 30px, $wraping: wrap);
+        }
+
+        @media screen and (min-width: 1328px) {
+            @include flex-box($gap: 30px);
+        }
+
+
     }
 
     &__title {
@@ -44,7 +81,7 @@
     }
 
     &__icons {
-        @mixin flex-box($gap: 10px)
+        @include flex-box($gap: 10px);
         margin-left: 32px;
         margin-right: 32px;
         padding-bottom: 30px;
