@@ -8,7 +8,7 @@
         padding-bottom: 60px;
     }
 
-    @media screen and (min-width:1328px) {
+    @media screen and (min-width: 1200px) {
         padding-top: 94px;
         padding-bottom: 94px;
     }
@@ -21,21 +21,21 @@
             @include flex-box($gap: 30px, $wraping: wrap);
         }
 
-        @media screen and (min-width: 1328px) {
+        @media screen and (min-width: 1200px) {
             @include flex-box($gap: 30px, $align-vertikal: flex-start);
         }
 
     }
 
     &__item {
-        max-width: 450px;
+        width: 450px;
 
         @media screen and (min-width: 738px) {
-            max-width: 354px;
+            width: 354px;
         }
 
-        @media screen and (min-width: 1328px) {
-            max-width: 270px;
+        @media screen and (min-width: 1200px) {
+            width: 270px;
         }
     }
 
@@ -54,7 +54,7 @@
             padding: 25px 142px 25px 142px;
         }
 
-        @media screen and (min-width: 1328px) {
+        @media screen and (min-width: 1200px) {
             width: 270px;
             height: 120px;
             padding: 25px 100px 25px 100px;

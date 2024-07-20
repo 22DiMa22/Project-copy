@@ -4,6 +4,8 @@
 
 .header {
     border-bottom: solid $header-underline-color;
+    padding-bottom: 24px;
+    padding-top: 24px;
 
     &__link:focus {
         color: $button-hover-color;

@@ -1,6 +1,16 @@
 .decition {
-    padding-top: 94px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 50px;
+    }
 
     &__button:focus {
         color: $text-color;
@@ -10,7 +20,11 @@
     }
 
     &__list {
+        @include flex-box($gap: 8px, $wraping: wrap);
+
+        @media screen and (min-width: 1200px) {
         @include flex-box($gap: 8px);
+        }
     }
 
     &__button {

@@ -73,14 +73,14 @@
     }
 
     &__list {
-        display: none;
+
 
         @media screen and (min-width: 738px) {
             @include flex-box($gap: 50px);
             margin-left: 88px;
         }
 
-        @media screen and (min-width: 1328px) {
+        @media screen and (min-width: 1200px) {
             @include flex-box($gap: 50px);
             margin-left: 93px;
         }
@@ -133,7 +133,7 @@
             margin-left: 96px;
         }
 
-        @media screen and (min-width: 1328px) {
+        @media screen and (min-width: 1200px) {
             @include flex-box($gap: 27px);
             margin-left: 315px;
         }
