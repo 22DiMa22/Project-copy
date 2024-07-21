@@ -3,7 +3,6 @@
     padding-bottom: 40px;
 
     @media screen and (min-width: 768px) {
-        padding-top: 60px;
         padding-bottom: 30px;
     }
 
@@ -21,9 +20,14 @@
 
     &__list {
         @include flex-box($gap: 8px, $wraping: wrap);
+        margin-right: auto;
+        
+        @media screen and (min-width: 768px) {
+            @include flex-box($gap: 8px);
+        }
 
         @media screen and (min-width: 1200px) {
-        @include flex-box($gap: 8px);
+            @include flex-box($gap: 8px);
         }
     }
 

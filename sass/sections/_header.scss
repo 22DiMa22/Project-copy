@@ -23,7 +23,6 @@
     padding-top: 24px;
     padding-bottom: 24px;
 
-
     &__logo {
         @extend %logo;
         color: $button-hover-color;
@@ -73,7 +72,7 @@
     }
 
     &__list {
-
+        display: none;
 
         @media screen and (min-width: 738px) {
             @include flex-box($gap: 50px);
@@ -129,13 +128,16 @@
     &__addresses {
         display: none;
 
-        @media screen and (max-width: 738px) {
+        @media screen and (min-width: 768px) {
             margin-left: 96px;
+            @include flex-box($gap: 10px);
+            flex-direction: column;
         }
 
         @media screen and (min-width: 1200px) {
-            @include flex-box($gap: 27px);
-            margin-left: 315px;
+            margin-left: 310px;
+            @include flex-box($gap: 30px);
+            flex-direction: row;
         }
     }
 }

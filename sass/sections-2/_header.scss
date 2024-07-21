@@ -107,14 +107,34 @@
         @include flex-box();
     }
 
-    &__one {
-        @include flex-box($gap: 50px);
-        margin-left: 93px;
+    &__list {
+        display: none;
+
+        @media screen and (min-width: 768px) {
+            @include flex-box($gap: 50px);
+            margin-left: 87px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            @include flex-box($gap: 50px);
+            margin-left: 93px;
+        }
     }
 
     &__address {
-        margin-left: 310px;
-        @include flex-box($gap: 30px);
+        display: none;
+
+        @media screen and (min-width: 768px) {
+            margin-left: 96px;
+            @include flex-box($gap: 10px);
+            flex-direction: column;
+        }
+
+        @media screen and (min-width: 1200px) {
+            margin-left: 310px;
+            @include flex-box($gap: 30px);
+            flex-direction: row;
+        }
     }
 
     &__box {

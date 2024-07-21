@@ -16,6 +16,15 @@
 
     &__list {
         @include flex-box($gap: 30px, $wraping: wrap);
+
+        @media screen and (min-width: 768px) {
+            @include flex-box($gap: 30px, $wraping: wrap);
+            max-width: 738px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            
+        }
     }
 
     &__info-text {
@@ -32,7 +41,7 @@
     &__item {
         border: 1px solid #EEE;
         background: #FFF;
-        max-width: 370px;
+        width: 100%;
         flex-basis: calc((100% - (30px * 2)) / 3);
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -113,8 +122,7 @@
     }
 
     &__foto {
-        width: 370px;
-        height: 294px;
+        width: 100%;
     }
 
     &__hiddenbox {
@@ -139,7 +147,7 @@
     &__hiddentext {
         color: $text-color;
         @extend %hidden-text;
-        max-width: 322px;
+        width: 322px;
         overflow: hidden;
     }
 
