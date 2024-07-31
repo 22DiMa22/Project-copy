@@ -122,9 +122,11 @@
 
     &__form {
         padding-top: 12px;
+        width: 100%;
 
         @media screen and (min-width: 768px) {
             margin-top: 60px;
+            max-width: 450px;
         }
 
         @media screen and (min-width: 1200px) {

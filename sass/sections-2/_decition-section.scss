@@ -19,7 +19,7 @@
     }
 
     &__list {
-        @include flex-box($gap: 8px, $wraping: wrap);
+        @include flex-box($gap: 8px, $wraping: wrap, $align-horisontal: start);
         margin-right: auto;
         
         @media screen and (min-width: 768px) {
