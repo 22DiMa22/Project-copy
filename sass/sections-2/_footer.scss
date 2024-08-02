@@ -17,7 +17,6 @@
     &__place {
         @extend %small-text;
         color: $text-color;
-        text-align: start;
     }
 
     &__logo {
@@ -61,7 +60,7 @@
         }
 
         @media screen and (min-width: 1200px) {
-            @include flex-box();
+            @include flex-box($align-vertikal: start);
         }
     }
 
@@ -75,12 +74,6 @@
         @media screen and (min-width: 1200px) {
             margin-left: 70px;
         }
-    }
-
-    &__box1 {
-
-
-        @media screen and (min-width: 1200px) {}
     }
 
     &__icolist {
@@ -142,6 +135,8 @@
 
         @media screen and (min-width: 1200px) {
             margin-left: 93px;
+            margin-top: 0px;
+
         }
     }
 
@@ -188,7 +183,7 @@
         margin-top: 20px;
 
         @media screen and (min-width: 1200px) {
-            @include flex-box();
+            @include flex-box($align-horisontal: start);
         }
     }
 }

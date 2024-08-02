@@ -126,7 +126,7 @@
 
         @media screen and (min-width: 768px) {
             margin-left: 96px;
-            @include flex-box($gap: 10px);
+            @include flex-box($gap: 10px, $align-vertikal: start);
             flex-direction: column;
         }
 

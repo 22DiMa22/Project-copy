@@ -502,7 +502,7 @@ button {
   .header__address {
     margin-left: 96px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     gap: 10px;
     flex-wrap: nowrap;
@@ -624,10 +624,9 @@ button {
   .text__list {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 30px;
     flex-wrap: wrap;
-    max-width: 738px;
   }
 }
 .text__info-text {
@@ -649,11 +648,13 @@ button {
 @media screen and (min-width: 768px) {
   .text__item {
     flex-basis: calc((100% - 60px) / 2);
+    min-height: 440px;
   }
 }
 @media screen and (min-width: 1200px) {
   .text__item {
     flex-basis: calc((100% - 60px) / 3);
+    min-height: 404px;
   }
 }
 .text__item:hover {
@@ -769,7 +770,6 @@ button {
 }
 .footer__place {
   color: #ffffff;
-  text-align: start;
 }
 .footer__logo {
   color: #2196F3;
@@ -832,7 +832,7 @@ button {
 @media screen and (min-width: 1200px) {
   .footer__box {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     gap: 0px;
     flex-wrap: nowrap;
@@ -912,6 +912,7 @@ button {
 @media screen and (min-width: 1200px) {
   .footer__form {
     margin-left: 93px;
+    margin-top: 0px;
   }
 }
 .footer__send {
@@ -958,7 +959,7 @@ button {
   .footer__form-box {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 0px;
     flex-wrap: nowrap;
   }

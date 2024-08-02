@@ -118,7 +118,7 @@ button {
   letter-spacing: 0.42px;
 }
 
-.customers__title, .team__headline, .work__title {
+.work__title {
   font-family: "Roboto";
   font-size: 36px;
   font-weight: 700;
@@ -158,6 +158,13 @@ button {
   line-height: 42px;
   letter-spacing: 1.56px;
   text-transform: uppercase;
+}
+
+.customers__title, .team__headline {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.84px;
 }
 
 /* modal */
@@ -534,7 +541,7 @@ button {
   .header__addresses {
     margin-left: 96px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     gap: 10px;
     flex-wrap: nowrap;
@@ -574,6 +581,9 @@ button {
 @media screen and (min-width: 1200px) {
   .decision__title {
     max-width: 696px;
+    letter-spacing: 2.64px;
+    font-size: 44px;
+    line-height: 60px;
   }
 }
 .decision__buttonfirst {
@@ -792,6 +802,8 @@ button {
 @media screen and (min-width: 1200px) {
   .team__headline {
     margin-bottom: 50px;
+    font-size: 36px;
+    letter-spacing: 1.08px;
   }
 }
 .team__list {
@@ -894,6 +906,8 @@ button {
 @media screen and (min-width: 1200px) {
   .customers__title {
     margin-bottom: 50px;
+    letter-spacing: 1.08px;
+    font-size: 36px;
   }
 }
 .customers__list {
@@ -1175,6 +1189,15 @@ button {
   gap: 0px;
   flex-wrap: nowrap;
 }
+@media screen and (min-width: 1200px) {
+  .footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0px;
+    flex-wrap: nowrap;
+  }
+}
 .footer__logo2 {
   color: #ffffff;
 }
@@ -1202,7 +1225,7 @@ button {
 @media screen and (min-width: 1200px) {
   .footer__list {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     gap: 9px;
     flex-wrap: nowrap;
@@ -1227,7 +1250,7 @@ button {
 @media screen and (min-width: 1200px) {
   .footer__box {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     gap: 0px;
     flex-wrap: nowrap;
@@ -1285,7 +1308,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .footer__input {
-    width: 358px;
+    width: 100%;
     height: 50px;
   }
 }
@@ -1302,6 +1325,7 @@ button {
 @media screen and (min-width: 1200px) {
   .footer__form {
     margin-left: 93px;
+    margin-top: 0px;
   }
 }
 .footer__send {

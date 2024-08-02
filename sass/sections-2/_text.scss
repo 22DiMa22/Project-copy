@@ -18,8 +18,7 @@
         @include flex-box($gap: 30px, $wraping: wrap);
 
         @media screen and (min-width: 768px) {
-            @include flex-box($gap: 30px, $wraping: wrap);
-            max-width: 738px;
+            @include flex-box($gap: 30px, $wraping: wrap, $align-horisontal: start);
         }
 
         @media screen and (min-width: 1200px) {
@@ -49,10 +48,12 @@
 
         @media screen and (min-width: 768px) {
             flex-basis: calc((100% - (30px * 2)) / 2);
+            min-height: 440px;
         }
 
         @media screen and (min-width: 1200px) {
             flex-basis: calc((100% - (30px * 2)) / 3);
+            min-height: 404px;
         }
     }
 
