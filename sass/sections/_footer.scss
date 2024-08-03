@@ -59,7 +59,7 @@
         @include flex-box($gap: 60px, $wraping: wrap);
 
         @media screen and (min-width: 768px) {
-            @include flex-box($wraping: wrap);
+            @include flex-box($wraping: wrap, $align-vertikal: start);
         }
 
         @media screen and (min-width: 1200px) {

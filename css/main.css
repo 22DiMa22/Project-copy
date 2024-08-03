@@ -430,8 +430,14 @@ button {
   background-color: var(--white);
   border-bottom: solid var(--white-3);
   z-index: 2;*/
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 .header__logo {
   color: #2196F3;
@@ -471,14 +477,14 @@ button {
 .header__nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   gap: 0px;
   flex-wrap: nowrap;
 }
 .header__list {
   display: none;
 }
-@media screen and (min-width: 738px) {
+@media screen and (min-width: 768px) {
   .header__list {
     display: flex;
     align-items: center;
@@ -500,8 +506,23 @@ button {
 }
 .header__icon {
   fill: #757575;
-  width: 16px;
+  width: 14px;
   height: 10px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+}
+.header__icon-2 {
+  width: 10px;
+  height: 14px;
+  fill: #757575;
+  flex-shrink: 0;
+  margin-right: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
 }
 .header__contact {
   color: #757575;
@@ -524,15 +545,6 @@ button {
 }
 .header__box:hover .header__link {
   color: #2196F3;
-}
-.header__icon {
-  width: 16px;
-  height: 12px;
-  flex-shrink: 0;
-  margin-right: 10px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: fill;
 }
 .header__addresses {
   display: none;
@@ -557,6 +569,45 @@ button {
     gap: 30px;
     flex-wrap: nowrap;
     flex-direction: row;
+  }
+}
+.header__menu-button {
+  border: none;
+  background-color: transparent;
+  display: block;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  flex-wrap: nowrap;
+}
+@media screen and (min-width: 768px) {
+  .header__menu-button {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__menu-button {
+    display: none;
+  }
+}
+.header__menu-svg {
+  fill: #000000;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .header__menu-svg {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__menu-svg {
+    display: none;
   }
 }
 
@@ -600,16 +651,16 @@ button {
   border-radius: 5px;
   border: 0;
 }
+@media screen and (min-width: 768px) {
+  .decision {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .decision {
     padding-top: 200px;
     padding-bottom: 200px;
-  }
-}
-@media screen and (min-width: 738px) {
-  .decision {
-    padding-top: 118px;
-    padding-bottom: 118px;
   }
 }
 
@@ -675,6 +726,11 @@ button {
   border-radius: 4px;
   margin-bottom: 30px;
   background-color: #F5F4FA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  flex-wrap: nowrap;
 }
 @media screen and (min-width: 768px) {
   .text__box {
@@ -688,6 +744,10 @@ button {
 }
 .text__icon::before {
   width: 100%;
+}
+.text__icon {
+  width: 70px;
+  height: 70px;
 }
 .text__title {
   color: #212121;
@@ -1241,7 +1301,7 @@ button {
 @media screen and (min-width: 768px) {
   .footer__box {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     gap: 0px;
     flex-wrap: wrap;

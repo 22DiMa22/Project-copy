@@ -37,19 +37,19 @@
         border: 0;
     }
 
-    @media screen and (min-width: 1200px) {
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
-
-    @media screen and (min-width: 738px) {
-        padding-top: 118px;
-        padding-bottom: 118px;
-    }
-
     padding-top: 118px;
     padding-bottom: 118px;
     background-color: $background-footer-color;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../img/background-index.webp);
+
+    @media screen and (min-width: 768px) {
+        padding-top: 118px;
+        padding-bottom: 118px;
+    }
+
+        @media screen and (min-width: 1200px) {
+            padding-top: 200px;
+            padding-bottom: 200px;
+        }
 }

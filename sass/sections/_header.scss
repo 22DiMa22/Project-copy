@@ -20,8 +20,13 @@
     border-bottom: solid var(--white-3);
     z-index: 2;*/
 
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
 
     &__logo {
         @extend %logo;
@@ -68,13 +73,13 @@
     }
 
     &__nav {
-        @include flex-box();
+        @include flex-box($align-horisontal: start);
     }
 
     &__list {
         display: none;
 
-        @media screen and (min-width: 738px) {
+        @media screen and (min-width: 768px) {
             @include flex-box($gap: 50px);
             margin-left: 88px;
         }
@@ -87,8 +92,24 @@
 
     &__icon {
         fill: $small-text-color;
-        width: 16px;
+        width: 14px;
         height: 10px;
+        flex-shrink: 0;
+        margin-right: 10px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: fill;
+    }
+
+    &__icon-2 {
+        width: 10px;
+        height: 14px;
+        fill: $small-text-color;
+        flex-shrink: 0;
+        margin-right: 10px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: fill;
     }
 
     &__contact {
@@ -115,16 +136,6 @@
         color: $button-hover-color;
     }
 
-    &__icon {
-        width: 16px;
-        height: 12px;
-        flex-shrink: 0;
-        margin-right: 10px;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-property: fill;
-    }
-
     &__addresses {
         display: none;
 
@@ -138,6 +149,40 @@
             margin-left: 310px;
             @include flex-box($gap: 30px);
             flex-direction: row;
+        }
+    }
+
+    &__menu-button {
+        border: none;
+        background-color: transparent;
+        display: block;
+        margin-left: auto;
+        width: 40px;
+        height: 40px;
+        @include flex-box();
+
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: none;
+        }
+    }
+
+    &__menu-svg {
+        fill: $text-title-color;
+        width: 40px;
+        height: 40px;
+        display: block;
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: none;
         }
     }
 }
