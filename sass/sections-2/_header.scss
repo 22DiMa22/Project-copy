@@ -4,8 +4,13 @@
 
 .header {
     border-bottom: solid $header-underline-color;
-    padding-bottom: 24px;
-    padding-top: 24px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 24px;
+        padding-top: 24px;
+    }
 
     &__link:focus {
         color: $button-hover-color;
@@ -78,8 +83,11 @@
     &__box:hover &__icon {
         fill: $button-hover-color;
     }
+    &__box:hover &__icon-2 {
+        fill: $button-hover-color;
+    }
 
-    &__box:hover &__link2 {
+    &__box:hover &__link {
         color: $button-hover-color;
     }
 
@@ -139,6 +147,40 @@
 
     &__box {
         @include flex-box();
+    }
+
+    &__menu-button {
+        border: none;
+        background-color: transparent;
+        display: block;
+        margin-left: auto;
+        width: 40px;
+        height: 40px;
+        @include flex-box();
+
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: none;
+        }
+    }
+
+    &__menu-svg {
+        fill: $text-title-color;
+        width: 40px;
+        height: 40px;
+        display: block;
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: none;
+        }
     }
 
 }

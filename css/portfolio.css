@@ -314,9 +314,9 @@ button {
 /* index */
 .footer__logo-2, .footer__logo, .header__logo-2, .header__logo {
   font-family: "Raleway";
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.78px;
 }
 
 .header__link-2, .header__link {
@@ -385,8 +385,14 @@ button {
 }*/
 .header {
   border-bottom: solid #ECECEC;
-  padding-bottom: 24px;
-  padding-top: 24px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
 }
 .header__link:focus {
   color: #2196F3;
@@ -444,7 +450,10 @@ button {
 .header__box:hover .header__icon {
   fill: #2196F3;
 }
-.header__box:hover .header__link2 {
+.header__box:hover .header__icon-2 {
+  fill: #2196F3;
+}
+.header__box:hover .header__link {
   color: #2196F3;
 }
 .header__icon {
@@ -527,6 +536,45 @@ button {
   gap: 0px;
   flex-wrap: nowrap;
 }
+.header__menu-button {
+  border: none;
+  background-color: transparent;
+  display: block;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  flex-wrap: nowrap;
+}
+@media screen and (min-width: 768px) {
+  .header__menu-button {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__menu-button {
+    display: none;
+  }
+}
+.header__menu-svg {
+  fill: #000000;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .header__menu-svg {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__menu-svg {
+    display: none;
+  }
+}
 
 .decition {
   padding-top: 60px;
@@ -605,7 +653,17 @@ button {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }*/
 .text {
-  padding-bottom: 94px;
+  padding-bottom: 66px;
+}
+@media screen and (min-width: 768px) {
+  .text {
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text {
+    padding-bottom: 94px;
+  }
 }
 .text__box {
   padding-left: 24px;

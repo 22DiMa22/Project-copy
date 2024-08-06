@@ -22,6 +22,7 @@
 
     padding-top: 21px;
     padding-bottom: 21px;
+    border-bottom: solid $header-underline-color;
 
     @media screen and (min-width: 1200px) {
         padding-top: 24px;
@@ -129,6 +130,10 @@
     }
 
     &__box:hover &__icon {
+        fill: $button-hover-color;
+    }
+
+    &__box:hover &__icon-2 {
         fill: $button-hover-color;
     }
 
