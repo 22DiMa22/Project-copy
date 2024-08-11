@@ -50,12 +50,50 @@
             </div>
           </li>
         </ul>
-        <button class="header__menu-button">
+        <button data-mobile-open class="header__menu-button">
           <svg class="header__menu-svg">
             <use href="./scv/icon.svg#icon-menu"></use>
           </svg>
         </button>
       </nav>
+      <div data-mobile class="header__menu-box is-hidden">
+        <div class="header__menu-section">
+          <button data-mobile-close class="header__menu-box-close">
+            <svg class="header__icon-close">
+              <use href="./scv/icon.svg#icon-close"></use>
+            </svg>
+          </button>
+          <div class="header__menu-dady-box">
+            <div class="header__menu-box-1">
+              <ul class="header__menu-nav-list">
+                <li class="header-nav-item"><a class="header__menu-page-link" href="./index.html">Студія</a></li>
+                <li class="header-nav-item"><a class="header__menu-page-link" href="./portfolio.html">Портфоліо</a></li>
+                <li class="header-nav-item"><a class="header__menu-page-link" href="#">Контакти</a></li>
+              </ul>
+            </div>
+            <div class="header__menu-box-2">
+              <ul class="header__menu-contacts">
+                <li class="header__menu-contact-nummer"><a class="header__menu-nummer-link" href="#">+38 096 111 11
+                    11</a>
+                </li>
+                <li class="header__menu-contact-email"><a class="header__menu-email-link"
+                    href="#">info@devstudio.com</a>
+                </li>
+              </ul>
+              <ul class="header__social-networks-menu">
+                <li class="header__social-network-menu"><a class="header__social-network-link"
+                    href="https://www.instagram.com">Instagram</a></li>
+                <li class="header__social-network-menu"><a class="header__social-network-link"
+                    href="https://www.twitter.com">Twitter</a></li>
+                <li class="header__social-network-menu"><a class="header__social-network-link"
+                    href="https://www.facebook.com">Facebook</a></li>
+                <li class="header__social-network-menu"><a class="header__social-network-link"
+                    href="https://www.linkedin.com">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
   <main class="maine">
@@ -271,6 +309,7 @@
       </div>
     </div>
   </footer>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
