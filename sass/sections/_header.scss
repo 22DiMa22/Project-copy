@@ -194,6 +194,7 @@
     /*mobile*/
 
     &__menu-box {
+        z-index: 1;
         @include flex-box();
         width: 100%;
         height: 100%;
