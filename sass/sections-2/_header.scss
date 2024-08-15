@@ -298,6 +298,8 @@
     &__menu-dady-box {
         @include flex-box($align-horisontal: space-between, $align-vertikal: start);
         flex-direction: column;
+        width: 100%;
+        height: 100%;
     }
 }
 
