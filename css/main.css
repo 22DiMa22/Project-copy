@@ -790,7 +790,7 @@ button {
   padding-top: 118px;
   padding-bottom: 118px;
   background-color: #2F303A;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/background-index.webp);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/background.webp);
 }
 .decision__title {
   color: #ffffff;
