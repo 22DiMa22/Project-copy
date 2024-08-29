@@ -790,7 +790,7 @@ button {
   padding-top: 118px;
   padding-bottom: 118px;
   background-color: #2F303A;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/background.webp);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/background-1x.webp"), url("../img/background.webp");
 }
 .decision__title {
   color: #ffffff;
@@ -825,6 +825,12 @@ button {
   font-size: 16px;
   border-radius: 5px;
   border: 0;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .decision {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/background-2x.webp"), url("../img/background.webp");
+    background-size: cover;
+  }
 }
 @media screen and (min-width: 768px) {
   .decision {
