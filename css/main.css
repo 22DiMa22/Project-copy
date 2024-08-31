@@ -791,6 +791,9 @@ button {
   padding-bottom: 118px;
   background-color: #2F303A;
   background-image: url(../img/mobile/mobile-background-1x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .decision__title {
   color: #ffffff;
@@ -835,6 +838,9 @@ button {
   .decision {
     padding-bottom: 233px;
     background-image: url(../img/ipad/ipad-background-1x.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 118px;
     padding-bottom: 118px;
   }
@@ -847,6 +853,9 @@ button {
 @media screen and (min-width: 1200px) {
   .decision {
     background-image: url(../img/desctop/desctop-background-1x.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
   }

@@ -41,6 +41,9 @@
     padding-bottom: 118px;
     background-color: $background-footer-color;
     background-image: url(../img/mobile/mobile-background-1x.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -51,6 +54,9 @@
     @media screen and (min-width: 768px) {
         padding-bottom: 233px;
         background-image: url(../img/ipad/ipad-background-1x.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -64,6 +70,9 @@
 
     @media screen and (min-width: 1200px) {
         background-image: url(../img/desctop/desctop-background-1x.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
