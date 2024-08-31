@@ -2,7 +2,7 @@
 
     &__title {
         color: $text-color;
-        @extend %mobile-big-title ;
+        @extend %mobile-big-title;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -40,49 +40,38 @@
     padding-top: 118px;
     padding-bottom: 118px;
     background-color: $background-footer-color;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url("../img/desctop/desctop-background-1x.webp"),
-    url("../img/desctop/desctop-background.webp");
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url("../img/desctop/desctop-background-2x.webp"),
-        url("../img/desctop/desctop-background.webp");
-        background-size: cover;
-    }
+    background-image: url(../img/mobile/mobile-background-1x.webp);
 
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url("../img/desctop/ipad/ipad-background-1x.webp"),
-    url("../img/desctop/ipad/ipad-background.webp");
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url("../img/desctop/ipad/ipad-background-2x.webp"),
-        url("../img/desctop/ipad/ipad-background.webp");
-        background-size: cover;
-    }
-
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url("../img/desctop/mobile/mobile-background-1x.webp"),
-    url("../img/desctop/mobile/mobile-background.webp");
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url("../img/desctop/mobile/mobile-background-2x.webp"),
-        url("../img/desctop/mobile/mobile-background.webp");
-        background-size: cover;
+        background-image: url(../img/mobile/mobile-background-2x.webp);
     }
 
     @media screen and (min-width: 768px) {
+        padding-bottom: 233px;
+        background-image: url(../img/ipad/ipad-background-1x.webp);
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../img/ipad/ipad-background-2x.webp);
+        }
+
         padding-top: 118px;
         padding-bottom: 118px;
     }
 
-        @media screen and (min-width: 1200px) {
-            padding-top: 200px;
-            padding-bottom: 200px;
+    @media screen and (min-width: 1200px) {
+        background-image: url(../img/desctop/desctop-background-1x.webp);
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../img/desctop/desctop-background-2x.webp);
         }
+
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
 }
